@@ -1,0 +1,44 @@
+name: Update Google Reviews
+
+on:
+  schedule:
+    # Run once every day at 00:00 UTC (05:30 IST)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allow running manually from the GitHub UI
+
+jobs:
+  update-reviews:
+    runs-on: ubuntu-latest
+
+    # Required permissions to commit and push changes back
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Reviews Scraper
+        run: python pull_reviews.py
+
+      - name: Check for Changes
+        id: git-check
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git status
+          # Check if script.js was updated. If diff exists, set output.
+          git diff --quiet script.js || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push Changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git add script.js
+          git commit -m "Auto-update Google reviews dataset [skip ci]"
+          git push

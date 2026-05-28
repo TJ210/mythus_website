@@ -1,0 +1,400 @@
+{
+  "restaurant": "Mythus Brewpub & Kitchen",
+  "drinks_menu": {
+    "bottled_beer": {
+      "section": "Bottled Beer",
+      "items": [
+        "Corona",
+        "Hoegarden",
+        "Budweiser",
+        "Kingfisher Ultra",
+        "Bira White",
+        "Bira Blond",
+        "Heineken"
+      ]
+    },
+    "blended_scotch_whisky": {
+      "section": "Blended/Scotch Whisky",
+      "items": [
+        "Ballantines Finest",
+        "Dewars White Label",
+        "Dewars 15yrs",
+        "Teachers Highland Reserve",
+        "Chivas Regal 18yrs Whisky",
+        "Chivas Regal 12yrs Whisky",
+        "JW Black Label",
+        "JW Double Black",
+        "JW Gold Label",
+        "JW Blue Label Whisky",
+        "JW Red Label Whisky",
+        "Royal Salute Whisky",
+        "Hibiki",
+        "Toki"
+      ]
+    },
+    "american_irish_whiskey": {
+      "section": "American & Irish Whiskey",
+      "items": [
+        "Jimbeam White",
+        "Jameson Irish",
+        "Jack Daniels No 7",
+        "Jack Daniels Honey",
+        "Jack Daniels Apple",
+        "Jack Daniels Fire",
+        "Gentleman Jack"
+      ]
+    },
+    "single_malt_whisky": {
+      "section": "Single Malt Whisky",
+      "items": [
+        "Singleton 12yrs",
+        "Talisker 10yrs",
+        "Aberfeldy 12yrs",
+        "The Glenlivet 12yrs",
+        "The Yamazaki",
+        "Glenfiddich 12yrs",
+        "Glenfiddich 15yrs"
+      ]
+    },
+    "vodka": {
+      "section": "Vodka",
+      "items": [
+        "Absolut",
+        "Grey Goose",
+        "Ciroc",
+        "Belvedere",
+        "Beluga Noble",
+        "Roberto Cavalli",
+        "Ketel One"
+      ]
+    },
+    "gin": {
+      "section": "Gin",
+      "items": [
+        "Bombay Sapphire",
+        "Greater Than",
+        "Beefeater",
+        "Tanqueray 10"
+      ]
+    },
+    "rum": {
+      "section": "Rum",
+      "items": [
+        "Old Monk Dark",
+        "Bacardi Carta Blanca",
+        "Bacardi 4 Yrs Anejo",
+        "Ron Diplomatico"
+      ]
+    },
+    "tequila": {
+      "section": "Tequila",
+      "items": [
+        "Jose Cuervo Tequila Silver",
+        "Jose Cuervo Especial Reposado",
+        "Camino Silver",
+        "Camino Gold",
+        "Patron Tequila Silver",
+        "Patron Reposado",
+        "Jose Cuervo Silver",
+        "Jose Cuervo Reposado",
+        "Don Julio Silver",
+        "Don Julio Reposado"
+      ]
+    },
+    "cognac_brandy": {
+      "section": "Cognac & Brandy",
+      "items": [
+        "MH Brandy",
+        "Hennessey VS",
+        "Moepheous XO",
+        "Good Man"
+      ]
+    },
+    "liqueurs_aperitif": {
+      "section": "Liqueurs & Aperitif",
+      "items": [
+        "Martini Rosso",
+        "Martini Dry",
+        "Martini Bianco",
+        "Kahlua",
+        "Baileys",
+        "Jagermeister",
+        "Cointreau",
+        "Sambuca",
+        "Aperol",
+        "Absente 49",
+        "Campari"
+      ]
+    },
+    "sparkling_wine_champagne": {
+      "section": "Sparkling Wine / Champagne",
+      "items": [
+        "Sula Brut",
+        "Villa Sandi Asolo Prosecco"
+      ]
+    },
+    "white_rose_wine": {
+      "section": "White & Rose Wine",
+      "items": [
+        "Sula Chenin Blanc or Fratelli",
+        "Sula Sauvignon Blanc or Fratelli",
+        "Matheus Rose",
+        "Sula Zinfandel Rose or Fratelli",
+        "Jacob's Creek Chardonnay"
+      ]
+    },
+    "red_wine": {
+      "section": "Red Wine",
+      "items": [
+        "Sula Shiraz or Fratelli",
+        "Sula Satori Merlot or Fratelli",
+        "Jacob's Creek Shiraz Cabernet",
+        "Hardys Stamp Merlot"
+      ]
+    },
+    "signature_cocktails": {
+      "section": "Signature Cocktails",
+      "items": [
+        {
+          "name": "Yeti",
+          "description": "Bacardi carta blanca with clarified watermelon mint soda"
+        },
+        {
+          "name": "Hydra",
+          "description": "Tequila with citrus green chili cordial, saline, lime juice & topped with soda"
+        },
+        {
+          "name": "Alp",
+          "description": "Bourbon whisky with spice syrup, tea decoction & oak chipped smoked"
+        },
+        {
+          "name": "Hippocampus",
+          "description": "Vodka with orange juice, saline, carrot juice air & carrot jello"
+        },
+        {
+          "name": "Baku",
+          "description": "Brandy with plum cordial, tea decoction & plum leather"
+        },
+        {
+          "name": "Phoenix",
+          "description": "Brandy with rosemary spiced red wine, fig puree & edible gold dust"
+        },
+        {
+          "name": "Unicorn",
+          "description": "Gin with white chocolate sauce & pink foam"
+        }
+      ]
+    },
+    "giant_iced_teas": {
+      "section": "Giant Iced Teas",
+      "items": [
+        {
+          "name": "Garden of Eden",
+          "description": "Gin with elderflower syrup, cucumber juice, mint syrup & sparkling water"
+        },
+        {
+          "name": "Dragon's Inferno",
+          "description": "Spiced rum with chili cherry cordial, lime juice, cinnamon syrup & lemonade"
+        },
+        {
+          "name": "Titan's Whisper",
+          "description": "Tequila with passion fruit puree, pineapple juice, agave syrup & non alcoholic ginger beer"
+        }
+      ]
+    },
+    "classic_cocktails": {
+      "section": "Classic Cocktails",
+      "items": [
+        {
+          "name": "Bullfrog",
+          "description": "Vodka, gin, tequila, white rum, blue curcao & energy drink"
+        },
+        {
+          "name": "Long Island Iced Tea",
+          "description": "Vodka, gin, tequila, white rum, triple sec & cola"
+        },
+        {
+          "name": "Sangria Red",
+          "description": "Mix of chopped fruits, red wine, brandy & triple sec"
+        },
+        {
+          "name": "Sangria White",
+          "description": "Mix of chopped fruits, white wine, vodka & peach syrup"
+        },
+        {
+          "name": "Daiquiri",
+          "description": "Classic or ask for flavours"
+        },
+        {
+          "name": "Mojito",
+          "description": "Classic or ask for flavours"
+        },
+        {
+          "name": "Martini",
+          "description": "Classic or ask for flavours"
+        },
+        {
+          "name": "Cosmopolitan",
+          "description": "Vodka with cranberry juice, triple sec & fresh lime"
+        },
+        {
+          "name": "Pina Colada",
+          "description": "White rum, coconut, pineapple & fresh cream"
+        },
+        {
+          "name": "Margarita",
+          "description": "Shaken or frozen with triple sec & fresh lime juice tequila"
+        },
+        {
+          "name": "Moscow Mule",
+          "description": "Vodka with fresh ginger, beer, mint & lime"
+        },
+        {
+          "name": "Old Fashioned",
+          "description": "Bourbon whiskey with sugar syrup, orange peel & angostura bitters"
+        },
+        {
+          "name": "Mimosa",
+          "description": "Fresh orange juice with sparkling wine"
+        },
+        {
+          "name": "Whiskey Sour",
+          "description": "Whisky with lime juice, sugar syrup, angostura bitters & egg white optional"
+        },
+        {
+          "name": "Bloody Mary",
+          "description": "Vodka, tobasco, tomato juice, worcestershire sauce, celery, salt & pepper"
+        },
+        {
+          "name": "Hot Toddy",
+          "description": "Brandy with indian spices, orange peel, honey & hot water"
+        }
+      ]
+    },
+    "shots": {
+      "section": "Shots",
+      "items": [
+        {
+          "name": "Phoenix Fire",
+          "description": "Cinnamon whisky with chilli cranberry reduction & orange peel fire"
+        },
+        {
+          "name": "Ambrosia's Kiss",
+          "description": "Vodka with vanilla white chocolate & gold dust"
+        },
+        {
+          "name": "Kraken's Wrath",
+          "description": "Spiced rum with blue curcao, lime juice & activated charcoal"
+        },
+        {
+          "name": "Elixir of Medusa",
+          "description": "Absinthe with red apple cordial & black salt"
+        },
+        {
+          "name": "Serpent's Venom",
+          "description": "Tequila with pineapple matcha syrup & chili salt"
+        },
+        {
+          "name": "Valkyrie's Breath",
+          "description": "Vodka with botanicals elderflower syrup & lime juice"
+        },
+        {
+          "name": "Tequila Single Shot",
+          "description": "Single shot of tequila"
+        },
+        {
+          "name": "Tequila Platter of Six Shots",
+          "description": "Platter of six tequila shots"
+        },
+        {
+          "name": "Kamikaze",
+          "description": "Classic or ask for flavours"
+        },
+        {
+          "name": "B-52",
+          "description": "Kahlua, Bailey's & Cointreau"
+        },
+        {
+          "name": "Blow Job",
+          "description": "Kahlua, Bailey's & Cointreau"
+        }
+      ]
+    },
+    "mocktails": {
+      "section": "Mocktails",
+      "items": [
+        {
+          "name": "Kalpak Green"
+        },
+        {
+          "name": "Moly"
+        },
+        {
+          "name": "Ambrosia"
+        },
+        {
+          "name": "World's Spine"
+        },
+        {
+          "name": "Eleven Forest"
+        },
+        {
+          "name": "Mermaid's Dream"
+        },
+        {
+          "name": "Dragon's Delight"
+        },
+        {
+          "name": "Iced Tea Lemon",
+          "description": "Tea decoction, lime juice & lemon"
+        },
+        {
+          "name": "Iced to Peach",
+          "description": "Tea decoction, lime juice & peach"
+        },
+        {
+          "name": "Iced to Passion Fruit",
+          "description": "Tea decoction, lime juice & passion fruit"
+        },
+        {
+          "name": "Oreo Shake",
+          "description": "Oreo, milk, chocolate & all in one beverage mix"
+        },
+        {
+          "name": "Cold Coffee",
+          "description": "Coffee, milk & vanilla all in one beverage mix"
+        },
+        {
+          "name": "Brownie Shake",
+          "description": "Brownie, milk, chocolate & all in one beverage mix"
+        },
+        {
+          "name": "Fresh Lime Water"
+        },
+        {
+          "name": "Fresh Lime Soda"
+        },
+        {
+          "name": "Fresh Lime Orange"
+        },
+        {
+          "name": "Fresh Lime Watermelon"
+        }
+      ]
+    },
+    "soft_beverages": {
+      "section": "Soft Beverages",
+      "items": [
+        "Veen Water",
+        "Perrier Sparkling Water 330ml",
+        "Aerated Beverages",
+        "Canned Juice",
+        "Soda",
+        "Diet Coke",
+        "Ginger Ale",
+        "Tonic Water",
+        "Red Bull"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mythus Brewpub & Kitchen | Premium Mythology Rooftop in Hyderabad</title>
+  <meta name="description" content="Experience where mythology meets mixology at Mythus Brewpub & Kitchen. Hyderabad's premier Greek-inspired rooftop bar, featuring craft beers, signature cocktails, and global cuisine.">
+  <meta name="keywords" content="Mythus Hyderabad, rooftop brewpub, Greek mythology lounge, craft beer Hyderabad, premium nightlife, fine dining Hyderabad, live music bar, Kokapet rooftop, Gachibowli rooftop, luxury lounge">
+  
+  <!-- Open Graph / Social SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mythus Brewpub & Kitchen | Rooftop Brewpub & Restaurant Hyderabad">
+  <meta property="og:description" content="Discover where Greek mythology meets modern nightlife. Experience stunning rooftop views, freshly brewed craft beers, signature smoked cocktails, and live music.">
+  <meta property="og:image" content="assets/optimized/folder2_dsc06086.jpg">
+  
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            charcoal: {
+              dark: '#070708',
+              DEFAULT: '#0e0e10',
+              light: '#18181c',
+            },
+            gold: {
+              bright: '#e5c9a3',
+              DEFAULT: '#c5a880',
+              dark: '#8c714d',
+            },
+            burgundy: {
+              light: '#731e2b',
+              DEFAULT: '#4a0e17',
+              dark: '#200407',
+            }
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-charcoal-dark text-gray-100 overflow-x-hidden">
+
+  <!-- Ambient background glow spots -->
+  <div class="ambient-glow-amber top-[10%] left-[-100px] pulse-glow-amber"></div>
+  <div class="ambient-glow-burgundy top-[35%] right-[-150px] opacity-40"></div>
+  <div class="ambient-glow-amber top-[65%] left-[20%] opacity-20"></div>
+  <div class="ambient-glow-burgundy top-[85%] right-[10%] opacity-30"></div>
+
+  <!-- Header & Navigation -->
+  <header id="sticky-header" class="fixed top-0 left-0 w-full py-6 z-50 transition-all duration-500 border-b border-transparent">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="flex items-center gap-3 group">
+        <img src="assets/logo.png" alt="Mythus Logo" class="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(197,168,128,0.4)] transition-transform duration-500 group-hover:scale-105">
+        <div class="flex flex-col">
+          <span class="font-serif text-lg lg:text-xl tracking-[0.2em] text-gold-gradient font-bold leading-none">MYTHUS</span>
+          <span class="text-[0.65rem] tracking-[0.35em] text-gray-400 font-medium uppercase mt-0.5">Brewpub & Kitchen</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden md:flex items-center space-x-8 font-serif text-[0.8rem] tracking-widest text-gray-300">
+        <a href="#about" class="hover:text-gold transition-colors duration-300">ABOUT</a>
+        <a href="#experience" class="hover:text-gold transition-colors duration-300">EXPERIENCES</a>
+        <a href="#our-brews" class="hover:text-gold transition-colors duration-300">CRAFT BEERS</a>
+        <a href="#menu" class="hover:text-gold transition-colors duration-300">MENU</a>
+        <a href="#gallery" class="hover:text-gold transition-colors duration-300">GALLERY</a>
+        <a href="#events" class="hover:text-gold transition-colors duration-300">EVENTS</a>
+        <a href="#testimonials" class="hover:text-gold transition-colors duration-300">REVIEWS</a>
+      </nav>
+      
+      <!-- CTA Reservation Button -->
+      <div class="hidden md:block">
+        <a href="#reserve" class="btn-luxury-outline text-xs !px-5 !py-2.5">
+          <span>Book Table</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Hamburger Button -->
+      <button id="mobile-menu-btn" class="md:hidden flex flex-col justify-between w-6 h-5 focus:outline-none z-50" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span class="w-full h-0.5 bg-gold-bright transition-all duration-300"></span>
+        <span class="w-full h-0.5 bg-gold-bright transition-all duration-300"></span>
+        <span class="w-full h-0.5 bg-gold-bright transition-all duration-300"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Overlay -->
+    <div id="mobile-menu" class="hidden fixed inset-0 w-full h-screen bg-charcoal-dark flex-col items-center justify-center space-y-8 z-40 text-center glass-panel-heavy">
+      <nav class="flex flex-col space-y-6 font-serif text-lg tracking-widest text-gray-200">
+        <a href="#about" class="mobile-nav-link hover:text-gold transition-colors">ABOUT</a>
+        <a href="#experience" class="mobile-nav-link hover:text-gold transition-colors">EXPERIENCES</a>
+        <a href="#our-brews" class="mobile-nav-link hover:text-gold transition-colors">CRAFT BEERS</a>
+        <a href="#menu" class="mobile-nav-link hover:text-gold transition-colors">MENU</a>
+        <a href="#gallery" class="mobile-nav-link hover:text-gold transition-colors">GALLERY</a>
+        <a href="#events" class="mobile-nav-link hover:text-gold transition-colors">EVENTS</a>
+        <a href="#testimonials" class="mobile-nav-link hover:text-gold transition-colors">REVIEWS</a>
+        <a href="#reserve" class="mobile-nav-link btn-luxury text-sm !mt-6 text-charcoal-dark inline-block">BOOK TABLE</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
+      
+      <!-- Fullscreen Background Video -->
+      <div class="absolute inset-0 z-0">
+        <video id="hero-video" autoplay loop playsinline class="w-full h-full object-cover opacity-60 scale-100 transform">
+          <source src="assets/Ambience.mp4" type="video/mp4">
+          <!-- Fallback image -->
+          <img src="assets/optimized/folder2_dsc06086.jpg" alt="Mythus Rooftop Ambience" class="w-full h-full object-cover">
+        </video>
+        <!-- Dark gradient overlays for cinematic mood -->
+        <div class="absolute inset-0 hero-overlay"></div>
+      </div>
+
+      <!-- Canvas for Floating Gold Particles -->
+      <canvas id="particle-canvas" class="absolute inset-0 z-10"></canvas>
+
+      <!-- Hero Content -->
+      <div class="relative max-w-5xl mx-auto px-6 text-center z-20 mt-16 scroll-animate">
+        <div class="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full border border-gold/20 bg-gold/5 glass-panel">
+          <span class="inline-block w-2 h-2 rounded-full bg-gold animate-pulse"></span>
+          <span class="text-[0.7rem] uppercase tracking-[0.25em] text-gold-bright font-medium font-serif">Hyderabad's Premier Rooftop Brewpub</span>
+        </div>
+        
+        <h1 class="font-serif text-6xl sm:text-8xl md:text-9xl lg:text-[10rem] tracking-[0.08em] font-black uppercase mb-4 leading-none">
+          <span class="text-gold-gradient drop-shadow-[0_4px_15px_rgba(197,168,128,0.45)]">MYTHUS</span>
+        </h1>
+        
+        <p class="max-w-2xl mx-auto text-sm sm:text-base md:text-lg text-gray-200 font-medium tracking-[0.2em] uppercase mb-10 leading-relaxed font-serif">
+          Brewpub & Kitchen
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="#reserve" class="btn-luxury w-full sm:w-auto">
+            <span>Reserve Table</span>
+          </a>
+          <a href="#menu" class="btn-luxury-outline w-full sm:w-auto">
+            <span>Explore Menu</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Mute/Unmute Toggle Button -->
+      <button id="hero-volume-btn" class="fixed bottom-10 right-6 md:right-10 z-50 w-12 h-12 rounded-full border border-gold/30 bg-black/40 backdrop-blur flex items-center justify-center text-gold hover:text-white hover:border-gold transition-all duration-300 shadow-lg cursor-pointer" title="Mute Sound">
+        <i class="fa-solid fa-volume-high"></i>
+      </button>
+
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20 opacity-70">
+        <span class="text-[0.65rem] tracking-[0.3em] text-gold-bright uppercase font-serif">Scroll Down</span>
+        <div class="w-5 h-8 border border-gold/30 rounded-full flex justify-center p-1">
+          <div class="w-1.5 h-1.5 bg-gold rounded-full animate-bounce"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="relative py-24 lg:py-32 bg-charcoal-dark bg-marble-texture">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          
+          <!-- Narrative Left -->
+          <div class="lg:col-span-7 scroll-animate">
+            <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">The Mythos Unveiled</span>
+            <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl tracking-wide uppercase mb-6 font-bold leading-tight">
+              A Pantheon of <br><span class="text-gold-gradient">Flavors & Nightlife</span>
+            </h2>
+            
+            <div class="space-y-6 text-gray-300 text-sm sm:text-base leading-relaxed font-light">
+              <p>
+                Perched high above Hyderabad's vibrant skyline, <strong class="text-gold">Mythus Brewpub & Kitchen</strong> is a sanctuary where ancient Mediterranean legend merges with the electric pulse of modern nightlife. Our architecture is inspired by the grandeur of Greek mythology—featuring grand marble-texture finishes, soaring pillars, and warm, ambient lighting reminiscent of Mount Olympus under starlight.
+              </p>
+              <p>
+                From freshly crafted microbrews developed by master brewers to signature smoke-infused cocktails, each offering is a recipe of artistic storytelling. Whether you are gathered for conversations in our spacious alfresco dining area, celebrating with friends, or dancing to the beats of top DJs under neon nights, Mythus is designed as an Instagram-worthy escape from the ordinary.
+              </p>
+              <p>
+                Here, dining is not just a meal; it is an epic celebration. Join us on the rooftop, and write your own mythical night.
+              </p>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mt-10 border-t border-gold/10 pt-8">
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-beer-mug-empty text-gold text-lg"></i>
+                <span class="text-xs tracking-wider uppercase font-serif text-gray-200">Fresh Craft Beers</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-cloud-moon text-gold text-lg"></i>
+                <span class="text-xs tracking-wider uppercase font-serif text-gray-200">Rooftop Alfresco</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-music text-gold text-lg"></i>
+                <span class="text-xs tracking-wider uppercase font-serif text-gray-200">Live Beats & DJ</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Decorative Image Frame Right -->
+          <div class="lg:col-span-5 relative scroll-animate">
+            <div class="relative rounded-lg overflow-hidden shadow-2xl group border border-gold/15">
+              <img src="assets/optimized/folder2_dsc06038.jpg" alt="Mythus Dining Ambience" class="w-full h-[450px] object-cover transition-transform duration-700 group-hover:scale-105">
+              <div class="absolute inset-0 bg-gradient-to-t from-charcoal-dark via-transparent to-transparent opacity-80"></div>
+              
+              <!-- Floating Emblem Overlay -->
+              <div class="absolute bottom-6 left-6 right-6 p-6 glass-panel rounded border border-gold/10 text-center">
+                <span class="font-serif text-xs tracking-[0.25em] text-gold-gradient font-bold uppercase block mb-1">DINE UNDER STARS</span>
+                <span class="text-[0.65rem] text-gray-400 font-light italic">"Let the golden hops grow high, and let the goblets stay full..."</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="py-24 bg-charcoal">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16 scroll-animate">
+          <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">Curated Lifestyles</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold">
+            The Mythus <span class="text-gold-gradient">Experiences</span>
+          </h2>
+          <div class="w-16 h-[1px] bg-gold/40 mx-auto mt-4 mb-6"></div>
+          <p class="text-gray-400 text-sm md:text-base font-light">
+            Every corner of Mythus Brewpub tells a story. Immerse yourself in the distinct atmospheres and offerings designed to awe and inspire.
+          </p>
+        </div>
+
+        <!-- Experience Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Experience 1: Craft Beers -->
+          <div class="experience-card relative h-[380px] rounded-lg overflow-hidden group shadow-2xl cursor-pointer scroll-animate">
+            <img src="assets/optimized/crafted_beer.png" alt="Craft Beers" class="absolute inset-0 w-full h-full object-cover experience-zoom">
+            <div class="absolute inset-0 experience-overlay z-10"></div>
+            <div class="absolute bottom-0 left-0 w-full p-8 z-20 flex flex-col justify-end h-full">
+              <span class="text-[0.65rem] uppercase tracking-[0.3em] text-gold font-semibold mb-2">BREWED ON HIGH</span>
+              <h3 class="font-serif text-xl tracking-wider text-white uppercase mb-2">Craft Beers</h3>
+              <p class="text-gray-300 text-xs font-light leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-h-0 group-hover:max-h-24 overflow-hidden mt-1">
+                Sip on freshly crafted brews including Stouts, IPAs, and Witbiers, cold-poured straight from our state-of-the-art tanks.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience 2: Signature Cocktails -->
+          <div class="experience-card relative h-[380px] rounded-lg overflow-hidden group shadow-2xl cursor-pointer scroll-animate">
+            <img src="assets/optimized/folder1_gmc02684.jpg" alt="Signature Cocktails" class="absolute inset-0 w-full h-full object-cover experience-zoom">
+            <div class="absolute inset-0 experience-overlay z-10"></div>
+            <div class="absolute bottom-0 left-0 w-full p-8 z-20 flex flex-col justify-end h-full">
+              <span class="text-[0.65rem] uppercase tracking-[0.3em] text-gold font-semibold mb-2">SMOKE & SHADOWS</span>
+              <h3 class="font-serif text-xl tracking-wider text-white uppercase mb-2">Signature Cocktails</h3>
+              <p class="text-gray-300 text-xs font-light leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-h-0 group-hover:max-h-24 overflow-hidden mt-1">
+                Watch mixologists weave theatrical spells with smoke-infused spirits, fresh herbal extractions, and edible gold garnish.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience 3: Rooftop Dining -->
+          <div class="experience-card relative h-[380px] rounded-lg overflow-hidden group shadow-2xl cursor-pointer scroll-animate">
+            <img src="assets/optimized/rooftop.png" alt="Rooftop Dining" class="absolute inset-0 w-full h-full object-cover experience-zoom">
+            <div class="absolute inset-0 experience-overlay z-10"></div>
+            <div class="absolute bottom-0 left-0 w-full p-8 z-20 flex flex-col justify-end h-full">
+              <span class="text-[0.65rem] uppercase tracking-[0.3em] text-gold font-semibold mb-2">ALFRESCO SKYLINE</span>
+              <h3 class="font-serif text-xl tracking-wider text-white uppercase mb-2">Rooftop Dining</h3>
+              <p class="text-gray-300 text-xs font-light leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-h-0 group-hover:max-h-24 overflow-hidden mt-1">
+                Dine amidst beautiful stone arches, green foliage, and open skies offering spectacular sunset and starlit views of the city.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience 4: Live Music & DJ -->
+          <div class="experience-card relative h-[380px] rounded-lg overflow-hidden group shadow-2xl cursor-pointer scroll-animate">
+            <img src="assets/optimized/dj_night.png" alt="Live DJ" class="absolute inset-0 w-full h-full object-cover experience-zoom">
+            <div class="absolute inset-0 experience-overlay z-10"></div>
+            <div class="absolute bottom-0 left-0 w-full p-8 z-20 flex flex-col justify-end h-full">
+              <span class="text-[0.65rem] uppercase tracking-[0.3em] text-gold font-semibold mb-2">SONIC FESTIVAL</span>
+              <h3 class="font-serif text-xl tracking-wider text-white uppercase mb-2">Live Music & DJ</h3>
+              <p class="text-gray-300 text-xs font-light leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-h-0 group-hover:max-h-24 overflow-hidden mt-1">
+                Surrender to the rhythm. From high-energy electronic techno sets on Friday nights to acoustic sunday sessions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience 5: Asian & Continental -->
+          <div class="experience-card relative h-[380px] rounded-lg overflow-hidden group shadow-2xl cursor-pointer scroll-animate">
+            <img src="assets/optimized/folder2_photo-2026-05-27-00-47-14_3.jpg" alt="Asian & Continental Cuisine" class="absolute inset-0 w-full h-full object-cover experience-zoom">
+            <div class="absolute inset-0 experience-overlay z-10"></div>
+            <div class="absolute bottom-0 left-0 w-full p-8 z-20 flex flex-col justify-end h-full">
+              <span class="text-[0.65rem] uppercase tracking-[0.3em] text-gold font-semibold mb-2">GASTRONOMIC HEAVEN</span>
+              <h3 class="font-serif text-xl tracking-wider text-white uppercase mb-2">Asian & Continental</h3>
+              <p class="text-gray-300 text-xs font-light leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-h-0 group-hover:max-h-24 overflow-hidden mt-1">
+                Dine on custom gourmet dimsums, woodfired pizzas, tandoori starters, and fusion desserts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience 6: Mythology Vibe -->
+          <div class="experience-card relative h-[380px] rounded-lg overflow-hidden group shadow-2xl cursor-pointer scroll-animate">
+            <img src="assets/optimized/folder1_gmc02702.jpg" alt="Nightlife Vibe" class="absolute inset-0 w-full h-full object-cover experience-zoom">
+            <div class="absolute inset-0 experience-overlay z-10"></div>
+            <div class="absolute bottom-0 left-0 w-full p-8 z-20 flex flex-col justify-end h-full">
+              <span class="text-[0.65rem] uppercase tracking-[0.3em] text-gold font-semibold mb-2">OLYMPUS ON EARTH</span>
+              <h3 class="font-serif text-xl tracking-wider text-white uppercase mb-2">Nightlife Experience</h3>
+              <p class="text-gray-300 text-xs font-light leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-h-0 group-hover:max-h-24 overflow-hidden mt-1">
+                Elevated VIP lounges, immersive Greek-inspired artwork, glowing amber design accents, and an energetic social crowd.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BEER LOGOS SECTION -->
+    <section id="our-brews" class="py-20 bg-charcoal-dark bg-marble-texture border-t border-b border-gold/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16 scroll-animate">
+          <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">The Pantheon of Brews</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold">
+            Our In-House <span class="text-gold-gradient">Craft Seals</span>
+          </h2>
+          <div class="w-16 h-[1px] bg-gold/40 mx-auto mt-4 mb-4"></div>
+          <p class="text-gray-400 text-sm md:text-base font-light">
+            Every craft beer at Mythus is represented by its own mythical seal. Discover our house-brewed specialties.
+          </p>
+        </div>
+
+        <!-- Logos Showcase Grid (2 Rows x 3 Columns on desktop, Large Cards) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12 lg:gap-16 max-w-6xl mx-auto items-start justify-center text-center scroll-animate">
+          
+          <!-- Logo 1: Apollo Stout -->
+          <div class="group flex flex-col items-center">
+            <div class="w-52 h-52 sm:w-[230px] sm:h-[230px] lg:w-64 lg:h-64 xl:w-[280px] xl:h-[280px] rounded-full border border-gold/15 bg-charcoal/40 flex items-center justify-center p-5 sm:p-6 lg:p-8 xl:p-10 mb-4 transition-all duration-300 group-hover:border-gold group-hover:bg-gold/5 shadow-2xl">
+              <img src="assets/beer_logo_1_gold.png" data-gold="assets/beer_logo_1_gold.png" data-bw="assets/beer_logo_1.png" alt="Apollo Stout Logo" class="beer-logo-img max-w-full max-h-full object-contain filter drop-shadow-[0_0_8px_rgba(197,168,128,0.25)] transition-all duration-300">
+            </div>
+            <h4 class="font-serif text-sm sm:text-base tracking-widest text-white uppercase font-bold group-hover:text-gold transition-colors">Apollo</h4>
+            <span class="text-[0.7rem] text-gray-400 uppercase tracking-wider mt-1">Oatmeal Stout</span>
+          </div>
+
+          <!-- Logo 2: Athena Witbier -->
+          <div class="group flex flex-col items-center">
+            <div class="w-52 h-52 sm:w-[230px] sm:h-[230px] lg:w-64 lg:h-64 xl:w-[280px] xl:h-[280px] rounded-full border border-gold/15 bg-charcoal/40 flex items-center justify-center p-5 sm:p-6 lg:p-8 xl:p-10 mb-4 transition-all duration-300 group-hover:border-gold group-hover:bg-gold/5 shadow-2xl">
+              <img src="assets/beer_logo_2_gold.png" data-gold="assets/beer_logo_2_gold.png" data-bw="assets/beer_logo_2.png" alt="Athena Witbier Logo" class="beer-logo-img max-w-full max-h-full object-contain filter drop-shadow-[0_0_8px_rgba(197,168,128,0.25)] transition-all duration-300">
+            </div>
+            <h4 class="font-serif text-sm sm:text-base tracking-widest text-white uppercase font-bold group-hover:text-gold transition-colors">Athena</h4>
+            <span class="text-[0.7rem] text-gray-400 uppercase tracking-wider mt-1">Belgian Witbier</span>
+          </div>
+
+          <!-- Logo 3: Poseidon IPA -->
+          <div class="group flex flex-col items-center">
+            <div class="w-52 h-52 sm:w-[230px] sm:h-[230px] lg:w-64 lg:h-64 xl:w-[280px] xl:h-[280px] rounded-full border border-gold/15 bg-charcoal/40 flex items-center justify-center p-5 sm:p-6 lg:p-8 xl:p-10 mb-4 transition-all duration-300 group-hover:border-gold group-hover:bg-gold/5 shadow-2xl">
+              <img src="assets/beer_logo_3_gold.png" data-gold="assets/beer_logo_3_gold.png" data-bw="assets/beer_logo_3.png" alt="Poseidon IPA Logo" class="beer-logo-img max-w-full max-h-full object-contain filter drop-shadow-[0_0_8px_rgba(197,168,128,0.25)] transition-all duration-300">
+            </div>
+            <h4 class="font-serif text-sm sm:text-base tracking-widest text-white uppercase font-bold group-hover:text-gold transition-colors">Poseidon</h4>
+            <span class="text-[0.7rem] text-gray-400 uppercase tracking-wider mt-1">Double IPA</span>
+          </div>
+
+          <!-- Logo 4: Hades Lager -->
+          <div class="group flex flex-col items-center">
+            <div class="w-52 h-52 sm:w-[230px] sm:h-[230px] lg:w-64 lg:h-64 xl:w-[280px] xl:h-[280px] rounded-full border border-gold/15 bg-charcoal/40 flex items-center justify-center p-5 sm:p-6 lg:p-8 xl:p-10 mb-4 transition-all duration-300 group-hover:border-gold group-hover:bg-gold/5 shadow-2xl">
+              <img src="assets/beer_logo_4_gold.png" data-gold="assets/beer_logo_4_gold.png" data-bw="assets/beer_logo_4.png" alt="Hades Lager Logo" class="beer-logo-img max-w-full max-h-full object-contain filter drop-shadow-[0_0_8px_rgba(197,168,128,0.25)] transition-all duration-300">
+            </div>
+            <h4 class="font-serif text-sm sm:text-base tracking-widest text-white uppercase font-bold group-hover:text-gold transition-colors">Hades</h4>
+            <span class="text-[0.7rem] text-gray-400 uppercase tracking-wider mt-1">Munich Dark Lager</span>
+          </div>
+
+          <!-- Logo 5: Hermes Hefeweizen -->
+          <div class="group flex flex-col items-center">
+            <div class="w-52 h-52 sm:w-[230px] sm:h-[230px] lg:w-64 lg:h-64 xl:w-[280px] xl:h-[280px] rounded-full border border-gold/15 bg-charcoal/40 flex items-center justify-center p-5 sm:p-6 lg:p-8 xl:p-10 mb-4 transition-all duration-300 group-hover:border-gold group-hover:bg-gold/5 shadow-2xl">
+              <img src="assets/beer_logo_5_gold.png" data-gold="assets/beer_logo_5_gold.png" data-bw="assets/beer_logo_5.png" alt="Hermes Hefeweizen Logo" class="beer-logo-img max-w-full max-h-full object-contain filter drop-shadow-[0_0_8px_rgba(197,168,128,0.25)] transition-all duration-300">
+            </div>
+            <h4 class="font-serif text-sm sm:text-base tracking-widest text-white uppercase font-bold group-hover:text-gold transition-colors">Hermes</h4>
+            <span class="text-[0.7rem] text-gray-400 uppercase tracking-wider mt-1">Bavarian Hefe</span>
+          </div>
+
+          <!-- Logo 6: Ares Amber Ale -->
+          <div class="group flex flex-col items-center">
+            <div class="w-52 h-52 sm:w-[230px] sm:h-[230px] lg:w-64 lg:h-64 xl:w-[280px] xl:h-[280px] rounded-full border border-gold/15 bg-charcoal/40 flex items-center justify-center p-5 sm:p-6 lg:p-8 xl:p-10 mb-4 transition-all duration-300 group-hover:border-gold group-hover:bg-gold/5 shadow-2xl">
+              <img src="assets/beer_logo_6_gold.png" data-gold="assets/beer_logo_6_gold.png" data-bw="assets/beer_logo_6.png" alt="Ares Amber Ale Logo" class="beer-logo-img max-w-full max-h-full object-contain filter drop-shadow-[0_0_8px_rgba(197,168,128,0.25)] transition-all duration-300">
+            </div>
+            <h4 class="font-serif text-sm sm:text-base tracking-widest text-white uppercase font-bold group-hover:text-gold transition-colors">Ares</h4>
+            <span class="text-[0.7rem] text-gray-400 uppercase tracking-wider mt-1">Irish Amber Ale</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOD & DRINKS MENU SECTION -->
+    <section id="menu" class="py-24 bg-charcoal">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16 scroll-animate">
+          <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">Culinary Masterpieces</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold">
+            Our <span class="text-gold-gradient">Menu</span>
+          </h2>
+          <div class="w-16 h-[1px] bg-gold/40 mx-auto mt-4 mb-6"></div>
+          <p class="text-gray-400 text-sm md:text-base font-light">
+            Take a look at our curated culinary map. Each category blends high-end ingredients, artisanal techniques, and beautiful presentation.
+          </p>
+        </div>
+
+        <!-- Glassmorphic Tabs Navigation -->
+        <div class="flex flex-wrap justify-center gap-4 md:gap-8 mb-10 max-w-4xl mx-auto border-b border-gold/10 pb-4 scroll-animate">
+          <button class="menu-tab-btn active-tab px-4 py-2 text-gray-400 font-medium hover:text-white uppercase tracking-wider" data-tab="drinks">Drinks & Beers</button>
+          <button class="menu-tab-btn px-4 py-2 text-gray-400 font-medium hover:text-white uppercase tracking-wider" data-tab="spirits">Spirits & Wines</button>
+          <button class="menu-tab-btn px-4 py-2 text-gray-400 font-medium hover:text-white uppercase tracking-wider" data-tab="appetizers">Appetizers</button>
+          <button class="menu-tab-btn px-4 py-2 text-gray-400 font-medium hover:text-white uppercase tracking-wider" data-tab="mains">Gourmet Mains</button>
+          <button class="menu-tab-btn px-4 py-2 text-gray-400 font-medium hover:text-white uppercase tracking-wider" data-tab="desserts">Desserts & Extras</button>
+        </div>
+
+        <!-- Sub-tabs Dynamic Container -->
+        <div id="sub-menu-tabs-container" class="flex flex-wrap justify-center gap-2 mb-10 max-w-4xl mx-auto scroll-animate">
+          <!-- Loaded dynamically via JavaScript based on active main tab -->
+        </div>
+
+        <!-- Tab Content Grid (Dynamically Populated) -->
+        <div id="dynamic-menu-container" class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto min-h-[300px]">
+          <!-- Loaded dynamically via JavaScript from menuData -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="py-24 bg-charcoal-dark bg-marble-texture border-t border-b border-gold/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16 scroll-animate">
+          <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">Through Our Lens</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold">
+            Sights of <span class="text-gold-gradient">Mythus</span>
+          </h2>
+          <div class="w-16 h-[1px] bg-gold/40 mx-auto mt-4 mb-6"></div>
+          <p class="text-gray-400 text-sm md:text-base font-light">
+            Every corner of Mythus tells a story — from rooftop skylines bathed in golden light to plates crafted with passion. Explore our spaces, our flavours, and the moments that make every visit unforgettable.
+          </p>
+        </div>        <!-- Ambience Carousel Slider (Occupies less space, loops 1 photo per second) -->
+        <div class="relative w-full max-w-6xl mx-auto scroll-animate py-4 px-12 md:px-16 group">
+          
+          <!-- Left Navigation Button (placed just outside the picture viewport) -->
+          <button id="ambience-prev-btn" class="absolute left-1 md:left-2 top-1/2 -translate-y-1/2 z-30 w-10 h-10 md:w-12 md:h-12 rounded-full border border-gold/20 bg-charcoal-dark/80 flex items-center justify-center text-gold hover:bg-gold hover:text-charcoal-dark transition-all duration-300 shadow-2xl opacity-70 hover:opacity-100 focus:opacity-100 focus:outline-none" aria-label="Previous Slide">
+            <i class="fa-solid fa-chevron-left text-base md:text-lg"></i>
+          </button>
+          
+          <!-- Right Navigation Button (placed just outside the picture viewport) -->
+          <button id="ambience-next-btn" class="absolute right-1 md:right-2 top-1/2 -translate-y-1/2 z-30 w-10 h-10 md:w-12 md:h-12 rounded-full border border-gold/20 bg-charcoal-dark/80 flex items-center justify-center text-gold hover:bg-gold hover:text-charcoal-dark transition-all duration-300 shadow-2xl opacity-70 hover:opacity-100 focus:opacity-100 focus:outline-none" aria-label="Next Slide">
+            <i class="fa-solid fa-chevron-right text-base md:text-lg"></i>
+          </button>
+
+          <!-- Carousel Viewport -->
+          <div class="overflow-hidden w-full">
+            <div class="ambience-carousel-track flex cursor-pointer select-none">
+            <!-- Slide 1: Mythus Fine Dining Lens View 08669 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08669.jpg" alt="Mythus Fine Dining Lens View 08669" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 2: Rooftop Evening Atmosphere -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08673.jpg" alt="Rooftop Evening Atmosphere" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 3: Sumptuous Mediterranean Platter -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08692.jpg" alt="Sumptuous Mediterranean Platter" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 4: Elegantly Lit Greek Bar -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08733.jpg" alt="Elegantly Lit Greek Bar" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 5: Rooftop Lounge Sunset -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08747.jpg" alt="Rooftop Lounge Sunset" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 6: Luxury Dining Table Setup -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08762.jpg" alt="Luxury Dining Table Setup" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 7: Greek Sculpture Close Up -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08780.jpg" alt="Greek Sculpture Close Up" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 8: Handcrafted Artisanal Cocktail -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08791.jpg" alt="Handcrafted Artisanal Cocktail" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 9: Smoky Mezcal Cocktail -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08801.jpg" alt="Smoky Mezcal Cocktail" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 10: Night DJ Booth Atmosphere -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_dsc08888.jpg" alt="Night DJ Booth Atmosphere" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 11: Mythus Fine Dining Gastronomy 02684 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02684.jpg" alt="Mythus Fine Dining Gastronomy 02684" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 12: Lounge Table Vibe -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02688.jpg" alt="Lounge Table Vibe" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 13: Gourmet Pasta Course -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02692.jpg" alt="Gourmet Pasta Course" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 14: Mythus Fine Dining Gastronomy 02702 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02702.jpg" alt="Mythus Fine Dining Gastronomy 02702" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 15: Plated Gourmet Entree -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02720.jpg" alt="Plated Gourmet Entree" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 16: Premium Plated Dimsums -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02722.jpg" alt="Premium Plated Dimsums" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 17: Signature Seafood Entree -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02729.jpg" alt="Signature Seafood Entree" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 18: Crispy Tandoor Appetizer -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02746.jpg" alt="Crispy Tandoor Appetizer" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 19: Asian Dimsum Platter -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_gmc02757.jpg" alt="Asian Dimsum Platter" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 20: Mythus VIP Lounge Layout -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder1_whatsapp_image_2024-12-18_at_3.11.19_pm.jpg" alt="Mythus VIP Lounge Layout" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 21: Rooftop Skyline Dining -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06029.jpg" alt="Rooftop Skyline Dining" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 22: Dining Table Atmosphere -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06038.jpg" alt="Dining Table Atmosphere" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 23: Vibrant Neon Bar Area -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06044.jpg" alt="Vibrant Neon Bar Area" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 24: High top Bar Seating Area -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06071.jpg" alt="High top Bar Seating Area" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 25: Cozy Alfresco Corner -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06077.jpg" alt="Cozy Alfresco Corner" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 26: Mount Olympus Lounge Seating -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06086.jpg" alt="Mount Olympus Lounge Seating" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 27: Techno Night Event Lighting -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06149.jpg" alt="Techno Night Event Lighting" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 28: Premium Cocktail Crafting -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06200.jpg" alt="Premium Cocktail Crafting" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 29: Majestic Greek Pillars -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06383.jpg" alt="Majestic Greek Pillars" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 30: Outdoor Cabana Experience -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06395.jpg" alt="Outdoor Cabana Experience" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 31: Mythus Rooftop Lens View 06554 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06554.jpg" alt="Mythus Rooftop Lens View 06554" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 32: Mythus Rooftop Lens View 06577 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06577.jpg" alt="Mythus Rooftop Lens View 06577" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 33: Vocalist Performing Live -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06606.jpg" alt="Vocalist Performing Live" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 34: Night Event Stage Set -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06638.jpg" alt="Night Event Stage Set" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 35: Signature Flaming Cocktail -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06662.jpg" alt="Signature Flaming Cocktail" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 36: Lush Greenery Wall Design -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06674.jpg" alt="Lush Greenery Wall Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 37: Sunset Dinner on the Alfresco Deck -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06677.jpg" alt="Sunset Dinner on the Alfresco Deck" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 38: Dusk View of Gachibowli Skyline -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06704.jpg" alt="Dusk View of Gachibowli Skyline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 39: Dramatic Greek Statue Lighting -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06710.jpg" alt="Dramatic Greek Statue Lighting" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 40: Greek Column Architecture -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06719.jpg" alt="Greek Column Architecture" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 41: Cozy Couple Seating Spot -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_dsc06722.jpg" alt="Cozy Couple Seating Spot" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 42: Mythus Ambience Vibe 42 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-49.jpg" alt="Mythus Ambience Vibe 42" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 43: Mythus Ambience Vibe 43 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-49_2.jpg" alt="Mythus Ambience Vibe 43" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 44: Mythus Ambience Vibe 44 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-49_3.jpg" alt="Mythus Ambience Vibe 44" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 45: Mythus Ambience Vibe 45 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-50.jpg" alt="Mythus Ambience Vibe 45" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 46: Mythus Ambience Vibe 46 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-50_2.jpg" alt="Mythus Ambience Vibe 46" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 47: Mythus Ambience Vibe 47 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-50_3.jpg" alt="Mythus Ambience Vibe 47" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 48: Mythus Ambience Vibe 48 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-50_4.jpg" alt="Mythus Ambience Vibe 48" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 49: Mythus Ambience Vibe 49 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-41-51.jpg" alt="Mythus Ambience Vibe 49" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 50: Mythus Ambience Vibe 50 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-33.jpg" alt="Mythus Ambience Vibe 50" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 51: Mythus Ambience Vibe 51 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-33_2.jpg" alt="Mythus Ambience Vibe 51" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 52: Mythus Ambience Vibe 52 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-34.jpg" alt="Mythus Ambience Vibe 52" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 53: Mythus Ambience Vibe 53 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-34_2.jpg" alt="Mythus Ambience Vibe 53" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 54: Mythus Ambience Vibe 54 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-34_3.jpg" alt="Mythus Ambience Vibe 54" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 55: Mythus Ambience Vibe 55 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-35.jpg" alt="Mythus Ambience Vibe 55" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 56: Mythus Ambience Vibe 56 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-35_2.jpg" alt="Mythus Ambience Vibe 56" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 57: Mythus Ambience Vibe 57 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-35_3.jpg" alt="Mythus Ambience Vibe 57" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 58: Mythus Ambience Vibe 58 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-35_4.jpg" alt="Mythus Ambience Vibe 58" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 59: Mythus Ambience Vibe 59 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-36.jpg" alt="Mythus Ambience Vibe 59" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 60: Mythus Ambience Vibe 60 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-36_2.jpg" alt="Mythus Ambience Vibe 60" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 61: Mythus Ambience Vibe 61 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-42-48.jpg" alt="Mythus Ambience Vibe 61" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 62: Mythus Ambience Vibe 62 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-12.jpg" alt="Mythus Ambience Vibe 62" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 63: Mythus Ambience Vibe 63 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-12_2.jpg" alt="Mythus Ambience Vibe 63" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 64: Mythus Ambience Vibe 64 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-12_3.jpg" alt="Mythus Ambience Vibe 64" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 65: Mythus Ambience Vibe 65 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-13.jpg" alt="Mythus Ambience Vibe 65" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 66: Mythus Ambience Vibe 66 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-13_2.jpg" alt="Mythus Ambience Vibe 66" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 67: Mythus Ambience Vibe 67 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-13_3.jpg" alt="Mythus Ambience Vibe 67" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 68: Mythus Ambience Vibe 68 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-14.jpg" alt="Mythus Ambience Vibe 68" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 69: Mythus Ambience Vibe 69 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-14_2.jpg" alt="Mythus Ambience Vibe 69" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 70: Mythus Ambience Vibe 70 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-14_3.jpg" alt="Mythus Ambience Vibe 70" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 71: Mythus Ambience Vibe 71 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-14_4.jpg" alt="Mythus Ambience Vibe 71" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 72: Mythus Ambience Vibe 72 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-15.jpg" alt="Mythus Ambience Vibe 72" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 73: Mythus Ambience Vibe 73 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-15_2.jpg" alt="Mythus Ambience Vibe 73" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            <!-- Slide 74: Mythus Ambience Vibe 74 -->
+            <div class="ambience-carousel-item w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 flex-shrink-0 px-2">
+              <a href="#" class="gallery-item relative rounded overflow-hidden group shadow-2xl block h-[240px] sm:h-[280px] md:h-[320px]">
+                <img src="assets/optimized/folder2_photo-2026-05-27-00-47-15_3.jpg" alt="Mythus Ambience Vibe 74" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy">
+                <div class="absolute inset-0 bg-black/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <i class="fa-solid fa-expand text-gold text-2xl"></i>
+                </div>
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESS FEATURING EDITORIALS -->
+
+    <section id="press" class="py-24 bg-charcoal">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16 scroll-animate">
+          <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">Tales of Mythus</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold">
+            Editorial <span class="text-gold-gradient">Features</span>
+          </h2>
+          <div class="w-16 h-[1px] bg-gold/40 mx-auto mt-4 mb-6"></div>
+          <p class="text-gray-400 text-sm md:text-base font-light">
+            Mythus has captured the attention of top publications in Hyderabad. Click on the editorials below to read the full columns.
+          </p>
+        </div>
+
+        <!-- Press Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto items-stretch">
+          
+          <!-- Article 1 -->
+          <div class="scroll-animate flex flex-col justify-between glass-panel p-6 rounded-lg border border-gold/10 hover:border-gold/30 transition-all duration-300">
+            <div>
+              <a href="#" class="gallery-item relative block rounded overflow-hidden h-[380px] mb-6 group border border-gold/5">
+                <img src="assets/press_article_1.jpg" alt="Flavours with Mythical Twists - The New Indian Express" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <span class="px-4 py-2 bg-charcoal-dark/80 rounded border border-gold/30 text-gold text-xs tracking-widest uppercase font-serif">Read Article</span>
+                </div>
+              </a>
+              <h3 class="font-serif text-lg text-white uppercase tracking-wider mb-2">Flavours with Mythical Twists</h3>
+              <p class="text-xs text-gold-bright uppercase tracking-wider font-semibold mb-3 font-serif">The New Indian Express — Sat, 04 Jan 2025</p>
+              <blockquote class="text-xs text-gray-400 font-light leading-relaxed italic border-l-2 border-gold/25 pl-3 mt-4">
+                "Mythus Brewpub & Kitchen is a place where every sip, bite, and moment is crafted to tell a story and leave you wanting more... Inspired by a passion for craft beer, great food, and creating a unique space."
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="scroll-animate flex flex-col justify-between glass-panel p-6 rounded-lg border border-gold/10 hover:border-gold/30 transition-all duration-300">
+            <div>
+              <a href="#" class="gallery-item relative block rounded overflow-hidden h-[380px] mb-6 group border border-gold/5">
+                <img src="assets/press_article_2.jpg" alt="Tales about us - The Pioneer" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <span class="px-4 py-2 bg-charcoal-dark/80 rounded border border-gold/30 text-gold text-xs tracking-widest uppercase font-serif">Read Article</span>
+                </div>
+              </a>
+              <h3 class="font-serif text-lg text-white uppercase tracking-wider mb-2">Tales about us: What's Brewing?</h3>
+              <p class="text-xs text-gold-bright uppercase tracking-wider font-semibold mb-3 font-serif">The Pioneer — Sat, 07 Dec 2024</p>
+              <blockquote class="text-xs text-gray-400 font-light leading-relaxed italic border-l-2 border-gold/25 pl-3 mt-4">
+                "Taking the culinary and drink game up a notch, the launch party was host to the top socialites and influencers in the city of Hyderabad, with a vibe never-seen-before. An open air vibe upon one of the biggest rooftop bars."
+              </blockquote>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EVENTS SECTION -->
+    <section id="events" class="py-24 bg-charcoal-dark bg-marble-texture">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16 scroll-animate">
+          <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">On the Horizon</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold">
+            Mythical <span class="text-gold-gradient">Gatherings</span>
+          </h2>
+          <div class="w-16 h-[1px] bg-gold/40 mx-auto mt-4 mb-6"></div>
+          <p class="text-gray-400 text-sm md:text-base font-light">
+            From thunderous beats to intimate candlelit acoustics, find your ideal evening. Explore our scheduled rooftop highlights.
+          </p>
+        </div>
+
+        <!-- Events List -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Event 1 -->
+          <div class="event-card glass-panel rounded-lg overflow-hidden flex flex-col justify-between h-full scroll-animate">
+            <div>
+              <div class="relative h-[200px] overflow-hidden">
+                <img src="assets/optimized/folder2_dsc06149.jpg" alt="Techno Night" class="w-full h-full object-cover">
+                <div class="absolute top-4 left-4 bg-burgundy text-white font-serif text-[0.65rem] tracking-widest uppercase px-3 py-1 rounded">
+                  Every Friday
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="font-serif text-lg text-white uppercase tracking-wider mb-2">Neptune's Techno Night</h3>
+                <p class="text-xs text-gray-400 font-light leading-relaxed">
+                  Surrender to the tides of deep progressive bass and melodic house. Headlined by renowned DJs and international acts.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0 flex justify-between items-center mt-4">
+              <span class="text-gold text-xs font-serif tracking-widest uppercase">9:00 PM onwards</span>
+              <a href="#reserve" class="text-xs text-gold-bright hover:underline tracking-widest font-serif uppercase">Reserve Table <i class="fa-solid fa-arrow-right text-[0.65rem] ml-1"></i></a>
+            </div>
+          </div>
+
+          <!-- Event 2 -->
+          <div class="event-card glass-panel rounded-lg overflow-hidden flex flex-col justify-between h-full scroll-animate">
+            <div>
+              <div class="relative h-[200px] overflow-hidden">
+                <img src="assets/optimized/folder2_dsc06077.jpg" alt="Acoustic Session" class="w-full h-full object-cover">
+                <div class="absolute top-4 left-4 bg-gold-dark text-white font-serif text-[0.65rem] tracking-widest uppercase px-3 py-1 rounded">
+                  Every Sunday
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="font-serif text-lg text-white uppercase tracking-wider mb-2">Zeus Live Acoustic Sunset</h3>
+                <p class="text-xs text-gray-400 font-light leading-relaxed">
+                  Wind down your weekend with soothing acoustic strings and acoustic vocals set against the sunset view of Hyderabad.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0 flex justify-between items-center mt-4">
+              <span class="text-gold text-xs font-serif tracking-widest uppercase">5:30 PM onwards</span>
+              <a href="#reserve" class="text-xs text-gold-bright hover:underline tracking-widest font-serif uppercase">Reserve Table <i class="fa-solid fa-arrow-right text-[0.65rem] ml-1"></i></a>
+            </div>
+          </div>
+
+          <!-- Event 3 -->
+          <div class="event-card glass-panel rounded-lg overflow-hidden flex flex-col justify-between h-full scroll-animate">
+            <div>
+              <div class="relative h-[200px] overflow-hidden">
+                <img src="assets/optimized/folder2_dsc06383.jpg" alt="Rooftop party" class="w-full h-full object-cover">
+                <div class="absolute top-4 left-4 bg-burgundy-light text-white font-serif text-[0.65rem] tracking-widest uppercase px-3 py-1 rounded">
+                  Saturdays
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="font-serif text-lg text-white uppercase tracking-wider mb-2">Helios Sunset Sundowners</h3>
+                <p class="text-xs text-gray-400 font-light leading-relaxed">
+                  Celebrate rooftop energy. Premium beer towers, custom food platters, and stellar deep house beats as night falls.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0 flex justify-between items-center mt-4">
+              <span class="text-gold text-xs font-serif tracking-widest uppercase">4:00 PM onwards</span>
+              <a href="#reserve" class="text-xs text-gold-bright hover:underline tracking-widest font-serif uppercase">Reserve Table <i class="fa-solid fa-arrow-right text-[0.65rem] ml-1"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="py-24 bg-charcoal relative">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        
+        <!-- Header -->
+        <div class="mb-12 scroll-animate">
+          <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">Praise from Olympus</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold">
+            Guest <span class="text-gold-gradient">Reviews</span>
+          </h2>
+          <div class="flex items-center justify-center gap-2 mt-4 text-sm tracking-wider text-gray-400 font-serif">
+            <span class="flex items-center gap-1 text-gold"><i class="fa-solid fa-star"></i> 4.5</span>
+            <span>|</span>
+            <span class="flex items-center gap-1.5"><i class="fa-brands fa-google text-xs text-gold"></i> 1,000+ Google Reviews</span>
+          </div>
+          <div class="w-16 h-[1px] bg-gold/40 mx-auto mt-4"></div>
+        </div>
+
+        <!-- Slider Wrapper -->
+        <div id="testimonial-slides-container" class="relative min-h-[250px] flex items-center justify-center scroll-animate">
+          <!-- Dynamic Google reviews will be injected here via script.js -->
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="flex items-center justify-center gap-6 mt-8 scroll-animate">
+          <button id="testimonial-prev" class="w-10 h-10 rounded-full border border-gold/20 flex items-center justify-center hover:bg-gold/5 hover:border-gold transition-all duration-300 text-gold" aria-label="Previous Review">
+            <i class="fa-solid fa-chevron-left text-xs"></i>
+          </button>
+          
+          <div id="testimonial-dots-container" class="flex gap-2">
+            <!-- Dynamic slider dots will be injected here via script.js -->
+          </div>
+
+          <button id="testimonial-next" class="w-10 h-10 rounded-full border border-gold/20 flex items-center justify-center hover:bg-gold/5 hover:border-gold transition-all duration-300 text-gold" aria-label="Next Review">
+            <i class="fa-solid fa-chevron-right text-xs"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RESERVATION SECTION -->
+    <section id="reserve" class="py-24 bg-charcoal-dark bg-marble-texture relative">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          
+          <!-- Booking Left Info -->
+          <div class="lg:col-span-5 scroll-animate">
+            <span class="text-xs uppercase tracking-[0.3em] text-gold font-serif block mb-3 font-semibold">Secure Your Goblet</span>
+            <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide font-bold mb-6">
+              Reserve Your <br><span class="text-gold-gradient">Mythical Night</span>
+            </h2>
+            <div class="w-12 h-[1px] bg-gold/40 mb-6"></div>
+            
+            <p class="text-gray-300 text-sm md:text-base font-light leading-relaxed mb-8">
+              Reservations are highly recommended for weekend evenings to guarantee alfresco dining and rooftop seating. Fill out the booking form, and our hosts will prepare your spot under the stars.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex gap-4 items-start">
+                <i class="fa-solid fa-phone text-gold mt-1"></i>
+                <div>
+                  <h4 class="font-serif text-xs tracking-widest text-gold-bright uppercase mb-1">Direct Hotline</h4>
+                  <p class="text-sm font-semibold text-gray-200">+91 98765 43210 / +91 40 1234 5678</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 items-start">
+                <i class="fa-solid fa-clock text-gold mt-1"></i>
+                <div>
+                  <h4 class="font-serif text-xs tracking-widest text-gold-bright uppercase mb-1">Opening Hours</h4>
+                  <p class="text-sm text-gray-300">Daily: 12:00 PM – 12:00 AM</p>
+                  <p class="text-xs text-gray-500 mt-0.5">Weekend hours may extend based on special events</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reservation Form Block Right -->
+          <div class="lg:col-span-7 scroll-animate">
+            <div class="glass-panel-heavy rounded-lg p-8 md:p-10 border border-gold/10 shadow-2xl relative">
+              
+              <form id="reservation-form" class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  
+                  <div class="flex flex-col">
+                    <label for="booking-name" class="font-serif text-[0.65rem] tracking-[0.2em] text-gold-bright uppercase mb-2">Your Name</label>
+                    <input type="text" id="booking-name" required placeholder="e.g. Apollo" class="form-input rounded px-4 py-3 text-sm">
+                  </div>
+
+                  <div class="flex flex-col">
+                    <label for="booking-phone" class="font-serif text-[0.65rem] tracking-[0.2em] text-gold-bright uppercase mb-2">Phone Number</label>
+                    <input type="tel" id="booking-phone" required placeholder="e.g. +91 99999 99999" class="form-input rounded px-4 py-3 text-sm">
+                  </div>
+
+                  <div class="flex flex-col">
+                    <label for="booking-guests" class="font-serif text-[0.65rem] tracking-[0.2em] text-gold-bright uppercase mb-2">Number of Guests</label>
+                    <input type="number" id="booking-guests" required min="1" max="200" placeholder="e.g. 4" class="form-input rounded px-4 py-3 text-sm">
+                  </div>
+
+                  <div class="flex flex-col">
+                    <label for="booking-date" class="font-serif text-[0.65rem] tracking-[0.2em] text-gold-bright uppercase mb-2">Preferred Date</label>
+                    <input type="date" id="booking-date" required class="form-input form-date-input rounded px-4 py-3 text-sm">
+                  </div>
+
+                  <!-- Time Slot Selector -->
+                  <div class="flex flex-col md:col-span-2">
+                    <label class="font-serif text-[0.65rem] tracking-[0.2em] text-gold-bright uppercase mb-3">Preferred Time</label>
+                    <div id="time-slot-picker" class="flex flex-wrap gap-2">
+                      <button type="button" class="time-slot-btn" data-time="12:00">12:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="13:00">1:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="14:00">2:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="15:00">3:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="16:00">4:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="17:00">5:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="18:00">6:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="19:00">7:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="20:00">8:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="21:00">9:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="22:00">10:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="23:00">11:00 PM</button>
+                      <button type="button" class="time-slot-btn" data-time="00:00">12:00 AM</button>
+                    </div>
+                    <!-- Hidden input carries the selected time for form submission -->
+                    <input type="hidden" id="booking-time" required>
+                    <p id="time-slot-hint" class="text-[0.6rem] text-gray-500 mt-2 italic">Select a time slot above</p>
+                  </div>
+
+                </div>
+
+                <div class="pt-4">
+                  <button type="submit" class="btn-luxury w-full py-4 text-sm font-semibold tracking-[0.15em] uppercase text-charcoal-dark cursor-pointer">
+                    Request Booking Spot
+                  </button>
+                </div>
+                
+                <p class="text-[0.65rem] text-center text-gray-500 mt-3 italic leading-relaxed">
+                  *Requesting a spot notifies our host team. A confirmation call/SMS will follow shortly to lock in your booking.
+                </p>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-charcoal border-t border-gold/10 pt-20 pb-8 text-sm relative">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16">
+      
+      <!-- Footer Brand -->
+      <div class="lg:col-span-4 space-y-6">
+        <a href="#hero" class="flex items-center gap-3">
+          <img src="assets/logo.png" alt="Mythus Logo" class="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(197,168,128,0.4)]">
+          <div class="flex flex-col">
+            <span class="font-serif text-lg tracking-[0.2em] text-gold-gradient font-bold leading-none">MYTHUS</span>
+            <span class="text-[0.6rem] tracking-[0.35em] text-gray-400 font-medium uppercase mt-0.5">Brewpub & Kitchen</span>
+          </div>
+        </a>
+        <p class="text-gray-400 text-xs font-light leading-relaxed">
+          Where Mount Olympus descends onto Hyderabad's skies. Sip craft brews, enjoy premium dining, and surrender to neon rooftop nights.
+        </p>
+        <div class="flex gap-4 text-lg">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="text-gold-bright hover:text-white transition-colors" aria-label="Mythus Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-gold-bright hover:text-white transition-colors" aria-label="Mythus Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="text-gold-bright hover:text-white transition-colors" aria-label="Mythus YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Directory -->
+      <div class="lg:col-span-3 space-y-4">
+        <h4 class="font-serif text-xs tracking-widest text-gold-bright uppercase font-bold">DIRECTORY</h4>
+        <div class="flex flex-col space-y-2 text-xs text-gray-400">
+          <a href="#about" class="hover:text-gold transition-colors">Our Mythical Story</a>
+          <a href="#experience" class="hover:text-gold transition-colors">Atmospheres & Spaces</a>
+          <a href="#menu" class="hover:text-gold transition-colors">Food & Drink Offerings</a>
+          <a href="#gallery" class="hover:text-gold transition-colors">Visual Tour</a>
+          <a href="#events" class="hover:text-gold transition-colors">Upcoming Gatherings</a>
+          <a href="#reserve" class="hover:text-gold transition-colors">Secure Reservation</a>
+        </div>
+      </div>
+
+      <!-- Footer Info -->
+      <div class="lg:col-span-5 space-y-4">
+        <h4 class="font-serif text-xs tracking-widest text-gold-bright uppercase font-bold">THE ROOFTOP LOCATION</h4>
+        <p class="text-xs text-gray-400 leading-relaxed">
+          <a href="https://maps.app.goo.gl/uPY2A5sx1b7FYSfN6" target="_blank" rel="noopener noreferrer" class="hover:text-gold transition-colors">
+            5th Floor, Pearl Cardinal Building, <br>Kokapet, Hyderabad, Telangana 500075, India.
+          </a>
+        </p>
+        
+        <!-- Styled Grayed-out Google Maps Embed -->
+        <div class="map-container rounded overflow-hidden shadow-md h-[150px] border border-gold/15 relative">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.031599385558!2d78.3371762!3d17.386352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb95a801cd5de5%3A0x3b4694a504d17771!2sMythus%20Brewpub%20%26%20Kitchen!5e0!3m2!1sen!2sin!4v1716756800000!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mythus Brewpub Google Map Location">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 border-t border-gold/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
+      <p>&copy; 2026 Mythus Brewpub & Kitchen. All Rights Reserved. Crafted for epic nights.</p>
+      <p class="font-serif tracking-widest uppercase">Where Mythology Meets Mixology</p>
+    </div>
+  </footer>
+
+  <!-- DYNAMIC LIGHTBOX OVERLAY FOR GALLERY -->
+  <div id="gallery-lightbox" class="lightbox" role="dialog" aria-label="Image Lightbox Viewer">
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white text-3xl hover:text-gold transition-colors focus:outline-none" aria-label="Close Lightbox">&times;</button>
+    
+    <!-- Lightbox Navigation Left -->
+    <button id="lightbox-prev" class="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-50 w-12 h-12 rounded-full border border-white/10 bg-black/55 flex items-center justify-center text-white hover:border-gold hover:text-gold transition-all duration-300 focus:outline-none" aria-label="Previous Image">
+      <i class="fa-solid fa-chevron-left text-xl"></i>
+    </button>
+
+    <!-- Lightbox Navigation Right -->
+    <button id="lightbox-next" class="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-50 w-12 h-12 rounded-full border border-white/10 bg-black/55 flex items-center justify-center text-white hover:border-gold hover:text-gold transition-all duration-300 focus:outline-none" aria-label="Next Image">
+      <i class="fa-solid fa-chevron-right text-xl"></i>
+    </button>
+
+    <div class="max-w-[80%] sm:max-w-[85%] md:max-w-[90%] max-h-[85%] relative overflow-hidden flex items-center justify-center">
+      <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[80vh] rounded shadow-2xl object-contain border border-gold/10">
+    </div>
+  </div>
+
+  <!-- BOOKING SUCCESS MODAL -->
+  <div id="booking-success-modal" class="hidden fixed inset-0 w-full h-screen bg-black/85 backdrop-blur-md items-center justify-center z-50 p-6" role="dialog" aria-modal="true" aria-labelledby="success-modal-title">
+    <div class="glass-panel-heavy rounded-lg max-w-md w-full p-8 text-center border border-gold/25 shadow-2xl relative transform transition-transform duration-500 scale-100">
+      
+      <!-- Greek Accent Icon -->
+      <div class="w-16 h-16 rounded-full bg-gold/10 border border-gold/20 flex items-center justify-center mx-auto mb-6">
+        <i class="fa-solid fa-check text-gold text-2xl"></i>
+      </div>
+
+      <h3 id="success-modal-title" class="font-serif text-2xl text-white uppercase tracking-wider mb-2">Spot Requested!</h3>
+      <p class="text-xs text-gray-400 leading-relaxed mb-6">
+        Our Hostess team has received your request. We will dial your number or text you within 15 minutes to lock in your table reservation.
+      </p>
+
+      <!-- Booking details summary -->
+      <div id="success-booking-details" class="p-4 bg-charcoal rounded text-left border border-gold/5 text-xs mb-8">
+        <!-- Will be populated dynamically by script -->
+      </div>
+
+      <button id="success-modal-close" class="btn-luxury w-full py-3 cursor-pointer">
+        Return To Site
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Bundled Menu Data -->
+  <script src="assets/menu_data.js"></script>
+  <!-- Main Animation Script -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1804 @@
+window.menuData = {
+  "food": {
+    "restaurant": "Mythus Brewpub & Kitchen",
+    "menu": {
+      "veg_salad": {
+        "section": "Veg Salad",
+        "items": [
+          {
+            "name": "Mediterranean Quinoa Salad",
+            "price": 329,
+            "description": "More delicious as it sits and is made with all colourful veggies"
+          },
+          {
+            "name": "Watermelon and Feata Salad",
+            "price": 329,
+            "description": "Watermelon with feta cheese is surprisingly perfect in every way delicious bite!"
+          },
+          {
+            "name": "Ceasar Salad",
+            "price": 329,
+            "description": "Made with romaine lettuce, croutons, Parmesan cheese, and garlic mayo dressing"
+          },
+          {
+            "name": "Classic Fattoush Salad",
+            "price": 329,
+            "description": "A simple chopped salad dressed in a zesty lime vinaigrette"
+          }
+        ]
+      },
+      "non_veg_salad": {
+        "section": "Non Veg Salad",
+        "items": [
+          {
+            "name": "Greek Avocado Chicken Salad",
+            "price": 389,
+            "description": "Loaded with Greek flavours and grill chicken with avocado with olive dressed"
+          },
+          {
+            "name": "Avocado Tuna Salad",
+            "price": 389,
+            "description": "Creamy avocado replaces mayo in this tasty tuna"
+          },
+          {
+            "name": "Grilled Chicken Caesar Salad",
+            "price": 389,
+            "description": "Made with romaine lettuce, croutons, Parmesan cheese with grilled chicken garlic mayo dressing"
+          },
+          {
+            "name": "Grilled Herb Mediterranean Chicken Salad",
+            "price": 389,
+            "description": "A traditional Mediterranean flavours olives, tomatoes, cucumber, avocados, and chicken a salad bowl!"
+          }
+        ]
+      },
+      "veg_starters": {
+        "section": "Veg Starters",
+        "items": [
+          {
+            "name": "Hariyali Paneer",
+            "price": 349,
+            "description": "Cubes of paneer marinated with cilantro, mint along with yogurt & spices"
+          },
+          {
+            "name": "Veg Mini Sliders 6 No",
+            "price": 379,
+            "description": "Our in-house veggie patty layered between a soft brioche bun"
+          },
+          {
+            "name": "Paneer Popcorn",
+            "price": 339,
+            "description": "Made with fresh cottage cheese with spices tossed with breadcrumbs to give that extra punch"
+          },
+          {
+            "name": "Mexicano Veggi Nachos",
+            "price": 339,
+            "description": "Loaded with corn chips with melty cheeses, lots of beans, and a colourful veggies"
+          },
+          {
+            "name": "Mozerella Sticks",
+            "price": 339,
+            "description": "Made with string cheese, flour, Italian style breadcrumbs and salt, black pepper"
+          },
+          {
+            "name": "Jalapheno Cheese Poppers",
+            "price": 349,
+            "description": "Loaded with flavor, these cheese bites are crunchy on the outside and gooey, gooey, cheesy on the inside"
+          },
+          {
+            "name": "Crispy Lotus Steam",
+            "price": 359,
+            "description": "Crispy fried lotus stem tossed in home made sweet chilli sauce"
+          },
+          {
+            "name": "Spinach And Mushroom Rolls",
+            "price": 359,
+            "description": "Filled with saut\u00e9ed mushrooms, spinach, and cheddar cheese"
+          },
+          {
+            "name": "Schezwan Chilli Paneer/Mushroom",
+            "price": "359/339",
+            "description": "Crispy paneer is tossed with a spicy schezwan sauce"
+          },
+          {
+            "name": "Veg Galouti Kebab",
+            "price": 359,
+            "description": "These patties shaped kabab prepared with veggies and aromatic spices"
+          },
+          {
+            "name": "Tandoori Stuff Cheesy Mushroom",
+            "price": 379,
+            "description": "The stuffing is made with the mushroom stems, onion, ginger, garlic, spices with cream cheese along with mint chutney"
+          },
+          {
+            "name": "Crispy Corn With Water Chestnut",
+            "price": 339,
+            "description": "This unique recipe is a combination of Water chestnut and Sweet Corn are lightly fried to golden perfection"
+          },
+          {
+            "name": "Cheesy Malai Broccoli",
+            "price": 329,
+            "description": "A creamy marinade and flavoured with spices like cardamom, garam masala and is then roasted to perfection in the clay pot oven"
+          },
+          {
+            "name": "Indo Chinese Chilli Paneer",
+            "price": 329,
+            "description": "Crisp batter fried paneer is tossed in slightly hot and tangy chilli sauce"
+          },
+          {
+            "name": "Thai Cashew Tofu Stir-Fry",
+            "price": 329,
+            "description": "This Cashew Tofu stir-fry is loaded up with healthy veggies, crispy tofu, roasted cashews, and tossed with a simple home made sauce"
+          },
+          {
+            "name": "Peri Peri Paneer Tikka",
+            "price": 329,
+            "description": "Paneer is marinated in a homemade per-peri sauce grilled clay pot oven serve with mint chutney"
+          }
+        ]
+      },
+      "non_veg_starters": {
+        "section": "Non Veg Starters",
+        "subsections": {
+          "chicken": {
+            "label": "Chicken",
+            "items": [
+              {
+                "name": "Bang Bang Chicken Skewers",
+                "price": 410,
+                "description": "Flavourful recipe made with seasoned cubed chicken brushed with homemade bang bang sauce"
+              },
+              {
+                "name": "Mangolian Chicken",
+                "price": 410,
+                "description": "Crispy chicken coated in an aromatic, savoury, and sweet sauce"
+              },
+              {
+                "name": "Cashew Chicken",
+                "price": 410,
+                "description": "Simply a stir fry of chicken and cashews with a sauce that's got a in do Asian flavour"
+              },
+              {
+                "name": "Parmesan Chicken Tenders",
+                "price": 429,
+                "description": "Delicious chicken tenders breaded in a garlic parmesan panko mixture and oil fried to crispy perfection!"
+              },
+              {
+                "name": "Smoke Chicken Tikka",
+                "price": 429,
+                "description": "Spicy, creamy and flavoursome Smoked aromatic chicken pieces in an incredible smoked curry sauce"
+              },
+              {
+                "name": "Pollo Fritto",
+                "price": 410,
+                "description": "The secret to the Juicy, crispy, marinated Goya adobo seasoning fried chicken"
+              },
+              {
+                "name": "Yangnyeom Chicken",
+                "price": 410,
+                "description": "Korean fried chicken seasoned with a sweet and spicy gochujang sauce and other spices"
+              },
+              {
+                "name": "Spicy Thai Basil Chicken",
+                "price": 419,
+                "description": "Packed with flavors of spicy, garlicky, fresh basil fragrant, the savoury glaze on the chicken"
+              },
+              {
+                "name": "Kung Pao Chicken",
+                "price": 399,
+                "description": "Marinated chicken thighs, properly stir-fried peppers and celery, roasted peanuts, and a sweet, sour, and savoury sauce"
+              },
+              {
+                "name": "Peri Peri Chicken Kebab",
+                "price": 429,
+                "description": "Tender chicken is marinated in a homemade per-peri sauce grilled clay pot oven serve with mint chutney"
+              },
+              {
+                "name": "Turkish Chicken Kebab",
+                "price": 439,
+                "description": "Overnight marinade chicken of yogurt, onion, garlic, and spices"
+              },
+              {
+                "name": "Peruvian Grilled Chicken Kebab",
+                "price": 459,
+                "description": "They're so juicy, made with boneless, skinless chicken thighs and a spicy Verde sauce"
+              },
+              {
+                "name": "Moroccan Chicken Kebab",
+                "price": 429,
+                "description": "The chicken is marinated in yogurt, olive oil, lemon, garlic and spices, and then grilled over an open flame until juicy and golden brown"
+              },
+              {
+                "name": "Tandoori Chicken Lollypop",
+                "price": 439,
+                "description": "Marinated in tandoori masala and grilled charcoal served with spice mint chutney"
+              },
+              {
+                "name": "Chicken Popcorn",
+                "price": 399,
+                "description": "A dish consisting of small, bite-sized pieces of chicken that have been breaded and fried"
+              },
+              {
+                "name": "Trivandrum Chicken Fry",
+                "price": 459,
+                "description": "The chicken is marinated in a blend of aromatic spices and then deep-fried to perfection"
+              },
+              {
+                "name": "Miriyala Kodi Vepudu",
+                "price": 489,
+                "description": "A delicious spicy Andhra chicken fry made with a special vepudu masala"
+              },
+              {
+                "name": "Thai Gai Yang Chicken",
+                "price": 459,
+                "description": "Tender chicken with spicy, savoury, and has an enticing aroma from the fresh lemongrass, red chili, and lime juice marinade"
+              },
+              {
+                "name": "Grandma Spicy Chicken Roast",
+                "price": 489,
+                "description": "This dish made with old traditional home-made south style masalas"
+              }
+            ]
+          },
+          "mutton": {
+            "label": "Mutton",
+            "items": [
+              {
+                "name": "Chilli Pepper Lamb",
+                "price": 599,
+                "description": "This chilli lamb is a south-Indian delicacy and marinated in a blend of flavourful masalas"
+              },
+              {
+                "name": "Pepper Spiked Lamb",
+                "price": 599,
+                "description": "This Spicy Asian Style Lamb Toss in some crunchy veggies and Season pepper"
+              },
+              {
+                "name": "Lamb Galouti with Coin Paraths",
+                "price": 619,
+                "description": "The mutton galouti kebab has minced mutton keema that is mixed along with Indian spice"
+              },
+              {
+                "name": "Awadhi Gosht Seekh Kebab",
+                "price": 589,
+                "description": "Kebabs made from minced mutton and chicken meat, slathered in a bowl of spices and grilled to perfection"
+              },
+              {
+                "name": "Mangalorean Ghee Roast Mutton",
+                "price": 629,
+                "description": "Tossed in a fiery blend of spices lamb gently simmered in a special aromatic ghee roast masala"
+              },
+              {
+                "name": "Lamb Bheja Fry with Slider Buns 4 No",
+                "price": 619,
+                "description": "Made with lamb or sheep brain, cooked with minimal ingredients served with mini buns"
+              },
+              {
+                "name": "Gongura Mamsam Roast",
+                "price": 629,
+                "description": "The dish features tender mutton cooked with Gongura leaves and home made local masalas"
+              },
+              {
+                "name": "Nalla Karam Mutton",
+                "price": 629,
+                "description": "A traditional home made Nalla Karam Podi tossed along with cooked mutton"
+              },
+              {
+                "name": "Haleem Samosa 6 No",
+                "price": 619,
+                "description": "The crunchy samosa patty combined with the succulent meat pate inside makes for great texture"
+              },
+              {
+                "name": "Talaiwa Tawa Gosh",
+                "price": 629,
+                "description": "Lamb marinated in aromatic spices, and perfectly cooked on a hot tawa"
+              }
+            ]
+          },
+          "fish": {
+            "label": "Fish",
+            "items": [
+              {
+                "name": "Asian Style Chilli Garlic Fish",
+                "price": 490,
+                "description": "Batter fried bone less fish tossed in a spicy-tangy sauce made with soy, tomato and chilli sauce"
+              },
+              {
+                "name": "British Fish Cakes",
+                "price": 490,
+                "description": "Tender flakes of fish mixed with buttery garlicky potato, coated with breadcrumbs and pan fried until golden!"
+              },
+              {
+                "name": "Chilli Cilantro Fish",
+                "price": 489,
+                "description": "Fish fillets batter fried and tossed with fresh spice coriander paste, along with veggies"
+              },
+              {
+                "name": "Crispy Fish Fingers",
+                "price": 489,
+                "description": "A delicious appetizer where batons of boneless fish are mixed with a spicy seasoning, coated with flour and egg"
+              },
+              {
+                "name": "Tawa Fish",
+                "price": 489,
+                "description": "A popular Indian dish made by pan-fried marinated street style local spices"
+              },
+              {
+                "name": "Achari Fish Tikka",
+                "price": null,
+                "description": "Boneless fish fillets are marinated in an assortment of pickle spices and then grilled to perfection"
+              },
+              {
+                "name": "Schezwan Chilli Fish",
+                "price": 489,
+                "description": "Wok tossed, batter fried fish with spicy schezwan sauce"
+              },
+              {
+                "name": "Tandoori Pamfret",
+                "price": 589,
+                "description": "Whole pomfret marinated with exotic Indian masala spices, yogurt and roasted in the clay oven"
+              },
+              {
+                "name": "Lahori Fish Tikka",
+                "price": 489,
+                "description": "Boneless fish pieces are coated with a thick tandoori marinade & grilled in a tandoor, a clay oven"
+              },
+              {
+                "name": "Thai Basil Fish",
+                "price": 489,
+                "description": "The dish is marinated in a mixture of soy sauce, ginger, garlic, and Thai basil flavoured saut\u00e9ed boneless fish"
+              },
+              {
+                "name": "Chepa Vepudu",
+                "price": 489,
+                "description": "Tender chicken with spicy, savoury, and has an enticing aroma from the fresh lemongrass, red chili, and lime juice marinade"
+              }
+            ]
+          },
+          "prawns": {
+            "label": "Prawns",
+            "items": [
+              {
+                "name": "Southern Fried Shrimp",
+                "price": 569,
+                "description": "Marinated in old style traditional masala saut\u00e9ed"
+              },
+              {
+                "name": "Dynamite Prawns",
+                "price": 569,
+                "description": "Crispy fried shrimp coated in a spicy tangy mayo sauce"
+              },
+              {
+                "name": "Tandoori Wasabi Prawns",
+                "price": 569,
+                "description": "Prawns marinated with a unique blend of aromatic wasabi flavoured grilled to perfection"
+              },
+              {
+                "name": "Prawn Twister",
+                "price": 569,
+                "description": "Deep-fried shrimp are coated with crispy panko crumbs dusting with blasting seasonings"
+              },
+              {
+                "name": "Crumb Fried Butter Fly Prawns",
+                "price": 569,
+                "description": "These simple Butterfly Shrimp are juicy on the inside and crunchy on the outside"
+              },
+              {
+                "name": "Tandoori Peri Peri Prawns",
+                "price": 569,
+                "description": "Marinated in a rich, peri peri tandoori masala of tangy yoghurt and aromatic spices"
+              },
+              {
+                "name": "Old Bay Crab Cakes",
+                "price": 599,
+                "description": "The star of the dish is the fresh crabmeat flavoured with Old Bay seasoning"
+              },
+              {
+                "name": "Soft Shell Crab Fry",
+                "price": 599,
+                "description": "Deep fried crabs come out of the fryer crispy and full of flavor. Dusting with chipotle powder"
+              },
+              {
+                "name": "Asian Chilli Garlic Prawn",
+                "price": 569,
+                "description": "Batter fried prawn tossed in a spicy-tangy sauce made with soy, tomato and chilli sauce"
+              },
+              {
+                "name": "The Classic Butter Garlic Creamy Tiger Prawn",
+                "price": 569,
+                "description": "Plump juicy prawns marinated in garlic then seared in butter, finished with a splash of dry white wine and a squeeze of lemon juice"
+              },
+              {
+                "name": "Godavari Royyala Roast",
+                "price": 569,
+                "description": "Traditional Royyala roast made with Andhra style aromatics spices"
+              }
+            ]
+          }
+        }
+      },
+      "wings": {
+        "section": "Wings",
+        "items": [
+          {
+            "name": "Tandoori Chicken Wings",
+            "price": 429,
+            "description": "Chicken wings are marinated in yogurt and Indian spices, then cooked to perfection with crispy skin and juicy chicken inside"
+          },
+          {
+            "name": "Hot Garlic Chilli Chicken Wings",
+            "price": 429,
+            "description": "Asian flavors are hot, garlicky & crispy amount of spiciess"
+          },
+          {
+            "name": "Chipotle Chicken Wings",
+            "price": 429,
+            "description": "Fried chicken wings seasoned with Chipotle pepper rub"
+          },
+          {
+            "name": "Korean Fried Bbq Chicken Wings",
+            "price": 429,
+            "description": "These crispy Korean fried chicken wings deliver a sweet and spicy flavor"
+          },
+          {
+            "name": "Spicy Hebbanaro Orange Chicken Wings",
+            "price": 429,
+            "description": "Made these wings and they are killer! Aromatic spices and flavours"
+          },
+          {
+            "name": "Sriracha Chicken Wings",
+            "price": 429,
+            "description": "Spicy, tangy sauce fried chicken wings"
+          },
+          {
+            "name": "Buffalo Chicken Wings",
+            "price": 429,
+            "description": "Wok tossed, batter fried fish with spicy schezwan sauce"
+          },
+          {
+            "name": "Peri-Peri Chicken Wings",
+            "price": 429,
+            "description": "Peri Peri sauce and chicken are a perfection match made in heaven"
+          }
+        ]
+      },
+      "mains": {
+        "section": "Mains",
+        "subsections": {
+          "veg": {
+            "label": "Veg",
+            "items": [
+              {
+                "name": "Herb Rosted Veg-Pie with Creamy Sauce",
+                "price": 390,
+                "description": "Filled with fresh vegetables, creamy sauce and topped with gratinated cheese"
+              },
+              {
+                "name": "Grilled Herb Paneer with Spicy Peri Peri Sauce",
+                "price": 390,
+                "description": "Grilled paneer steak with creamy peri peri with herbed rice, and crunchy saut\u00e9ed veggies"
+              },
+              {
+                "name": "Creamy Mushroom Sauce with Spinach Rice",
+                "price": 390,
+                "description": "Buttery creamy mushroom saut\u00e9ed with spinach rice with grilled veggies"
+              }
+            ]
+          },
+          "non_veg": {
+            "label": "Non-Veg",
+            "items": [
+              {
+                "name": "Spinach Ricotta Stuffed Chicken",
+                "price": 489,
+                "description": "Deep-fried shrimp are coated with crispy panko crumbs dusting with blasting seasonings"
+              },
+              {
+                "name": "Creamy Ranch Chicken",
+                "price": 489,
+                "description": "Made with homemade seasoning blend. Served with broccoli sauce with mashed potato"
+              },
+              {
+                "name": "Parmesan Crusted Chicken",
+                "price": 489,
+                "description": "Chicken breast covered parmesan cheese and Italian spices covered with cheesy creamy sauce"
+              },
+              {
+                "name": "Grill Fish with Lemon Butter Saue",
+                "price": 489,
+                "description": "Bone less fish marinated with kasundhi and Dijon mustered flavoured lemon butter sauce on a bed of mash potato"
+              },
+              {
+                "name": "Herb Crusted Rack of Lamb Chops",
+                "price": 669,
+                "description": "Marinated herb crusted rack of lamb chops in the oven with Italian jibe sauce"
+              },
+              {
+                "name": "Salmon in Roasted Pepper Sauce",
+                "price": 590,
+                "description": "Roasted garlic salmon grill with red pepper sauce coat a bulb of garlic and olive oil"
+              },
+              {
+                "name": "Creamy Chicken Mushroom Sauce with Herb Rice",
+                "price": 519,
+                "description": "Tender Grilled Chicken Breast Steak served with Rich, Creamy and Garlicky Mushroom Sauce with herb rice"
+              },
+              {
+                "name": "Lobster Pepper Roast 250gm",
+                "price": 1299,
+                "description": "Stir-fried lobster is a delectable seafood dish that combines the succulent flavours"
+              }
+            ]
+          }
+        }
+      },
+      "pasta": {
+        "section": "Pasta",
+        "sauces": [
+          "Alfredo",
+          "Arrabiatta",
+          "Pesto",
+          "Pink Sauce",
+          "Aglio Olio"
+        ],
+        "pasta_types": [
+          "Penne",
+          "Fusili",
+          "Spaghetti",
+          "Macaroni"
+        ],
+        "addons": [
+          {
+            "name": "Veg",
+            "price": 349
+          },
+          {
+            "name": "Chicken",
+            "price": 379
+          },
+          {
+            "name": "Prawn",
+            "price": 429
+          },
+          {
+            "name": "Lamb Keema",
+            "price": 519
+          }
+        ],
+        "dishes": [
+          {
+            "name": "Creamy Garliky Parmesan Chicken Pasta",
+            "price": 389,
+            "description": "Combines tender chicken, savoury garlic, and a luscious Parmesan sauce"
+          },
+          {
+            "name": "Chicken Lazone",
+            "price": 399,
+            "description": "Pan-fried chicken breasts and the most delicious cream sauce"
+          },
+          {
+            "name": "Marry Me Chicken Pasta",
+            "price": 389,
+            "description": "A creamy, flavourful dish with tender chicken, sun-dried tomatoes, and Parmesan cheese"
+          },
+          {
+            "name": "Chicken Ricotta Meatballs With Spinach Alfredo",
+            "price": 429,
+            "description": "Chicken meatballs with the creamy richness of a spinach Alfredo sauce"
+          }
+        ]
+      },
+      "baos": {
+        "section": "Baos",
+        "subsections": {
+          "veg": {
+            "label": "Veg",
+            "items": [
+              {
+                "name": "Tandoori Paneer Tikka Bao",
+                "price": 359,
+                "description": "Spicy, tangy, flavourful soft charred tandoori Sach Paneer, loaded into fresh, fluffy homemade bao buns"
+              },
+              {
+                "name": "Chilli Garlic Mushroom Bao",
+                "price": 349,
+                "description": "Homemade fluffy steamed buns filled with mushrooms cooked in chilli garlic sauce"
+              },
+              {
+                "name": "Spicy Gochujang Tofu Bao",
+                "price": 349,
+                "description": "A sweet and spicy gochujang glaze on crispy tofu, stuffed into a fluffy steamed bao"
+              },
+              {
+                "name": "Broccoli Sang Choi Bao",
+                "price": 369,
+                "description": "Little spice broccoli crisp dish with lovely light Asian flavours"
+              }
+            ]
+          },
+          "non_veg": {
+            "label": "Non-Veg",
+            "items": [
+              {
+                "name": "Crispy Korean Fried Chicken Bao",
+                "price": 419,
+                "description": "Soft and fluffy steamed bao buns filled with crispy Korean chicken"
+              },
+              {
+                "name": "Bbq Chicken Bao",
+                "price": 419,
+                "description": "Crispy Chicken coated in sweet and spice BBQ sauce"
+              },
+              {
+                "name": "Pulled Chicken Bao",
+                "price": 419,
+                "description": "Bao Buns with tender spicy chicken marination with fluffy buns, and fresh garnishes"
+              },
+              {
+                "name": "Spicy Lamb Keema Bao",
+                "price": 419,
+                "description": "Well spiced keema mince filled with soft bao buns"
+              }
+            ]
+          }
+        }
+      },
+      "breads": {
+        "section": "Breads",
+        "items": [
+          {
+            "name": "Cheese Chilly Garlic Bread",
+            "price": 269,
+            "description": "This Chilli Cheese Garlic bread adds a spicy twist to the classic garlic bread"
+          },
+          {
+            "name": "Homemade Cheesy Garlic Breadsticks / Cheese Sauce",
+            "price": 269,
+            "description": "Cheesy Garlic Breadsticks, butter, minced garlic these breadsticks are the perfect addition"
+          },
+          {
+            "name": "Jalapeno Cheesy Garlic Bread",
+            "price": 269,
+            "description": "Cheese Bread is the perfect blend of spice and creaminess topped with Pickled Jalapenos"
+          },
+          {
+            "name": "Herb Calabrian Chili Garlic Bread",
+            "price": 269,
+            "description": "Garlic bread spicy with Calabrian chili, roasted garlic and herbs, like basil and parsley"
+          },
+          {
+            "name": "Cheese Garlic Bread / Garlic Bread",
+            "price": 269,
+            "description": "Home made garlic bread toasted with garlic butter and top mozzarella cheese / Home-made garlic bread toasted with garlic butter"
+          }
+        ]
+      },
+      "pizza": {
+        "section": "Pizza",
+        "subsections": {
+          "veg": {
+            "label": "Veg",
+            "items": [
+              {
+                "name": "Classic Margherita Pizza",
+                "price": 459,
+                "description": "A crisp thin crust topped with rich tomato sauce, fresh mozzarella, fragrant basil, and a drizzle of olive oil"
+              },
+              {
+                "name": "Farmhouse Pizza",
+                "price": 469,
+                "description": "Made with the combination of delicious mix of exotic vegetables and cheese"
+              },
+              {
+                "name": "Veggi Carnival Pizza",
+                "price": 479,
+                "description": "Made with packaged or homemade pizza dough and is topped with a mozzarella cheese"
+              },
+              {
+                "name": "Cottege Cheese Tikka Pizza",
+                "price": 469,
+                "description": "Homemade Paneer tikka Pizza is a delightful and flavourful fusion of Indian and Italian cuisines"
+              },
+              {
+                "name": "Classic Enorita",
+                "price": 469,
+                "description": "A mouth-watering fresh pizza, topped with ripe tomatoes, fragrant basil, and gooey mozzarella cheese"
+              },
+              {
+                "name": "Four-Cheese Pizza",
+                "price": 479,
+                "description": "A delightful masterpiece blending the rich flavours of four distinct cheeses \u2013 mozzarella, cheddar, parmesan, and ricotta"
+              }
+            ]
+          },
+          "non_veg": {
+            "label": "Non-Veg",
+            "items": [
+              {
+                "name": "Bbq Chicken Pizza",
+                "price": 519,
+                "description": "This BBQ chicken pizza is perfectly balanced with sweet BBQ sauce, gooey mozzarella, shredded rotisserie chicken, and crunchy red onions"
+              },
+              {
+                "name": "Chicken Tikka Masala Pizza",
+                "price": 519,
+                "description": "A very flavourful pizza with chicken tikka and an Indian flavoured pizza sauce top with mozzarella cheese"
+              },
+              {
+                "name": "Old School Caf\u00e9 Pizza",
+                "price": 539,
+                "description": "Classic square slices pourable crust robust tomato sauce, and gooey mozzarella with Cajun spiced roasted chicken"
+              },
+              {
+                "name": "Mexicana Chicken Pizza",
+                "price": 529,
+                "description": "Made with Chicken and beans, farm fresh veggies and two different cheeses"
+              },
+              {
+                "name": "Chicken Jalapeno Pizza",
+                "price": 529,
+                "description": "Made with smoked paprika chicken, tomato sauce, parmesan, mozzarella and pickled jalape\u00f1os"
+              },
+              {
+                "name": "Lamb Keema Pizza",
+                "price": 599,
+                "description": "Made with Indian spiced lamb keema with three types of bell pappper, Green chilli top with mozzarella cheese"
+              },
+              {
+                "name": "Hot Lamb Pepproni Pizza",
+                "price": 599,
+                "description": "Loaded with lamb pepperoni, Italian sauce and top with mozzarella cheese"
+              }
+            ]
+          }
+        }
+      },
+      "sandwiches": {
+        "section": "Sandwiches",
+        "subsections": {
+          "veg": {
+            "label": "Veg",
+            "items": [
+              {
+                "name": "Grilled Vegetable Burrata Sandwich",
+                "price": 299,
+                "description": "Rich cheese paired with fresh basil, ripe tomatoes, and a smoky sundried tomato aioli on ciabatta bread"
+              },
+              {
+                "name": "Cottege Cheese Tikka Sandwich",
+                "price": 299,
+                "description": "Paneer and veggies in a tandoori flavor lathered in a cilantro-mint sauce and cheese"
+              },
+              {
+                "name": "Mediterranean Veg Grilled Sandwich",
+                "price": 299,
+                "description": "Filled with fresh vegetables onions, red peppers, chopped pickles and Broccoli refreshing lettuce all pulled together in a creamy hummus"
+              }
+            ]
+          },
+          "non_veg": {
+            "label": "Non-Veg",
+            "items": [
+              {
+                "name": "Grilled Chicken Guacamole Cheese Sandwich",
+                "price": 339,
+                "description": "The combination of tender chicken, creamy avocado, and gooey cheese is hard to beat"
+              },
+              {
+                "name": "Chicken Tikka Sandwich",
+                "price": 339,
+                "description": "Home-made chicken tandoori masala and fresh veggies and creamy cheese"
+              },
+              {
+                "name": "Grilled Bbq Chicken Sandwich",
+                "price": 339,
+                "description": "BBQ chicken with caramelized onions, peppers in a crispy grilled sandwich with plenty of melted cheese!"
+              }
+            ]
+          }
+        }
+      },
+      "burgers": {
+        "section": "Burgers",
+        "subsections": {
+          "veg": {
+            "label": "Veg",
+            "items": [
+              {
+                "name": "Classic Vegi Veggi Burger",
+                "price": 349,
+                "description": "Veggie Burger can be made with flour and veggies and cheese slice"
+              },
+              {
+                "name": "Black Bean Burger",
+                "price": 349,
+                "description": "Crispy on the outside and tender on the inside, bursting with smoky spices and delicious veggies"
+              },
+              {
+                "name": "Ultimate Double Cheese Burger",
+                "price": 369,
+                "description": "The ultimate Burger combines juicy grilled chicken with double layered cheese"
+              },
+              {
+                "name": "Peri Peri Cottege Cheese Burger",
+                "price": 349,
+                "description": "Loaded with lettuce and grilled chicken with homemade peri peri sauce"
+              },
+              {
+                "name": "Jalapeno Pepper Veggi Burger",
+                "price": 349,
+                "description": "Veggie patty with Spicy cheese sauce, home-made garlic avocado aioli to drizzle on top!"
+              },
+              {
+                "name": "Veg Mini Sliders 6 No",
+                "price": 379,
+                "description": "Our in-house veggie patty layered between a soft brioche bun"
+              }
+            ]
+          },
+          "non_veg": {
+            "label": "Non-Veg",
+            "items": [
+              {
+                "name": "Crispy Fried Chicken Burger",
+                "price": 349,
+                "description": "A delectable burger featuring a golden-brown fried chicken patty, topped with a slice of melted cheese and fresh lettuce, served on a sesame seed bun"
+              },
+              {
+                "name": "French Onion Chicken Burger",
+                "price": 349,
+                "description": "Seasoned ground chicken patties are topped with melted cheese, caramelized onions and garlic Dijonnaise and served on brioche buns"
+              },
+              {
+                "name": "Lamb Philly Cheese Steak Sliders",
+                "price": 369,
+                "description": "These Philly Cheesesteak Sliders are packed with tender lamb mince patty, melty cheese, and saut\u00e9ed peppers and onions"
+              },
+              {
+                "name": "Ultimate Smash Lamb Burger",
+                "price": 349,
+                "description": "BBQ Pulled Lamb in burger buns with your favourite coleslaw, and some chunky chips. The juicy meat is tender the BBQ sauce luscious"
+              },
+              {
+                "name": "Chimichurri Chicken Burger",
+                "price": 349,
+                "description": "This simple chimichurri chicken & mozzarella cheese marinated for extra juiciness and super delicious"
+              },
+              {
+                "name": "Chicken Mini Sliders 6 No",
+                "price": 379,
+                "description": "Our in-house chicken patty layered between a soft brioche bun"
+              }
+            ]
+          }
+        }
+      },
+      "indian_mains": {
+        "section": "Indian Mains",
+        "subsections": {
+          "veg": {
+            "label": "Veg",
+            "items": [
+              {
+                "name": "Tawa Vegetalbe Pulao",
+                "price": 389,
+                "description": "Pre cooked pulao rice is stir fried with colourful vegetables and aromatic home-made masala"
+              },
+              {
+                "name": "Shahi Paneer Pulao",
+                "price": 389,
+                "description": "Shahi Pulao, is an cottage cheese, aromatic Indian rice dish made with nuts and luxurious spices"
+              }
+            ]
+          },
+          "non_veg": {
+            "label": "Non-Veg",
+            "items": [
+              {
+                "name": "Hyderabadi Chicken Dum Ka Biryani",
+                "price": 439,
+                "description": "Authentic chicken Biryani with tender pieces of chicken marinated in spices, layerd with aromatic long grain Basmati rice topped with caramelized onions and saffron milk"
+              },
+              {
+                "name": "Afghani Chicken Tikka Pulao",
+                "price": 429,
+                "description": "Delicious, mildly spicy, aromatic, flavourful chicken tikka masala served with Pulao rice"
+              },
+              {
+                "name": "Chicken Roast Pulao",
+                "price": null,
+                "description": "Chicken roast made with local style masala served with flavourful Pulao rice with shorbha and raita"
+              },
+              {
+                "name": "Keema Prawn Pulao",
+                "price": 549,
+                "description": "Lamb keema and prawn best combination with street style masala with pulao rice serve with salon, raita"
+              },
+              {
+                "name": "Nizami Gosh Biryani",
+                "price": 459,
+                "description": "The dish is made with old style marinated meat variety Masala paste with cow ghee and premium spices"
+              },
+              {
+                "name": "Mutton Yakhni Pulao",
+                "price": 549,
+                "description": "Tender pieces of mutton and long-grained basmati rice are cooked in mutton stock and a carefully selected blend of aromatic whole spices"
+              }
+            ]
+          }
+        }
+      },
+      "indian_currys": {
+        "section": "Indian Currys",
+        "subsections": {
+          "veg": {
+            "label": "Veg",
+            "items": [
+              {
+                "name": "Dhal Makhani",
+                "price": 359,
+                "description": "Dal makhani is a delicious, rich & creamy dish made with black lentils, spices, butter and cream"
+              },
+              {
+                "name": "Dal Fry/Tadka",
+                "price": 359,
+                "description": "Popular Indian lentil dish made with toor dal, tomatoes, ginger, garlic, herbs, and spices"
+              },
+              {
+                "name": "Kadai Veg",
+                "price": 389,
+                "description": "Made with fresh veggies, capsicum, onion, tomato and freshly grounded spice in an onion-tomato gravy"
+              },
+              {
+                "name": "Paneer Shahi Khorma",
+                "price": 399,
+                "description": "A wonderful, creamy paneer gravy without all that butter and cream"
+              },
+              {
+                "name": "Paneer Tikka Masala",
+                "price": 399,
+                "description": "Grilled Indian Cottage Cheese or Paneer, bell peppers and onions, cooked in a spicy and flavourful onion and tomato based gravy"
+              },
+              {
+                "name": "Saag Wala Paneer / Methi Malai Paneer",
+                "price": 399,
+                "description": "Soft paneer chunks in a creamy spinach curry. Rich flavourful curry in which cottage cheese and fenugreek leave"
+              },
+              {
+                "name": "Malai Koftha Curry",
+                "price": 429,
+                "description": "These koftas are made of potato and paneer and served with a Rich cashew based gravy"
+              },
+              {
+                "name": "Gongura Paneer",
+                "price": 399,
+                "description": "Paneer cooked in a tangy sorrel leafy gravy that's creamy and bursting with flavour"
+              }
+            ]
+          },
+          "non_veg_chicken": {
+            "label": "Non-Veg Chicken",
+            "items": [
+              {
+                "name": "Murgh Tikka Masala",
+                "price": 429,
+                "description": "Creamy, flavorful dish with roots in Indian cuisine. Marinated chicken in a rich, spiced tomato-based gravy"
+              },
+              {
+                "name": "Batti Da Murgh",
+                "price": 439,
+                "description": "This dish made with simply Indian grilled chicken cooked with entire Indian spices"
+              },
+              {
+                "name": "Patiyala Chicken",
+                "price": 439,
+                "description": "Creamy cashew nut and tomato based gravy gives this chicken dish a unique and rich flavour"
+              },
+              {
+                "name": "Ra Ra Chicken Curry",
+                "price": 439,
+                "description": "Tender chicken pieces marinated in a flavourful blend of spices and cooked to perfection"
+              },
+              {
+                "name": "Murgh Kali Mirchi",
+                "price": 449,
+                "description": "Delicious Indian chicken curry loaded with black pepper"
+              },
+              {
+                "name": "Malai Methi Murgh",
+                "price": 449,
+                "description": "Murgh stands for chicken, methi for fenugreek and malai for fresh cream and rich cashew gravy"
+              },
+              {
+                "name": "Nizami Handi Chicken Curry",
+                "price": 449,
+                "description": "Wonderful chicken dish that is cooked with cashew nuts, peanuts, sesame seeds, coconut, yogurt, and spices"
+              }
+            ]
+          },
+          "non_veg_mutton": {
+            "label": "Non-Veg Mutton",
+            "items": [
+              {
+                "name": "Mutton Roghun Josh",
+                "price": 569,
+                "description": "Rogan Josh features succulent mutton slow-cooked to perfection in a flavourful blend of spices"
+              },
+              {
+                "name": "Gongura Mutton",
+                "price": 569,
+                "description": "Andhra cuisine, spice, flavour, and tanginess come instantly to our mind. Gongura or Puntikura Mamsam is a perfect example"
+              },
+              {
+                "name": "Nihari Gosht",
+                "price": 569,
+                "description": "Delicacy where shank meat is cooked with selected spices for hours to reach the level of perfection"
+              }
+            ]
+          }
+        }
+      },
+      "galli_food": {
+        "section": "Galli Food (Live Counter)",
+        "items": [
+          {
+            "name": "Masala Kaju",
+            "price": 339,
+            "description": "Spicy, tangy, flavourful soft charred tandoori Sach Paneer, loaded into fresh, fluffy home-made bao buns"
+          },
+          {
+            "name": "Spicy Masala American Corn",
+            "price": 299,
+            "description": "Homemade fluffy steamed buns filled with mushrooms cooked in chilli garlic sauce"
+          },
+          {
+            "name": "Peanut Masala",
+            "price": 299,
+            "description": "A sweet and spicy gochujang glaze on crispy tofu, stuffed into a fluffy steamed bao"
+          },
+          {
+            "name": "Vada Pav",
+            "price": 319,
+            "description": "Little spice broccoli crisp dish with lovely light Asian flavours"
+          },
+          {
+            "name": "Samosa - Paneer",
+            "price": 269,
+            "description": "Popular Indian snacks made of a crispy and flaky deep fried pastry stuffed with a spicy potato filling"
+          },
+          {
+            "name": "Samosa - Chicken",
+            "price": 389,
+            "description": "Popular Indian snacks made of a crispy and flaky deep fried pastry stuffed with chicken"
+          },
+          {
+            "name": "Samosa - Mutton Keema 4 No",
+            "price": 459,
+            "description": "Popular Indian snacks made of a crispy and flaky deep fried pastry stuffed with mutton keema"
+          },
+          {
+            "name": "Ladi Pav - Veg Masala",
+            "price": 269,
+            "description": "Mashed vegetable medley cooked in butter & pav bhaji masala. Serve with buttered ladi pav"
+          },
+          {
+            "name": "Ladi Pav - Chicken",
+            "price": 389,
+            "description": "Mashed vegetable medley cooked in butter & pav bhaji masala with chicken. Serve with buttered ladi pav"
+          },
+          {
+            "name": "Ladi Pav - Mutton Keema",
+            "price": 459,
+            "description": "Mashed vegetable medley cooked in butter & pav bhaji masala with mutton keema. Serve with buttered ladi pav"
+          },
+          {
+            "name": "Puchika - Veg",
+            "price": 199,
+            "description": "Crispy puris filled with spicy, tangy water and savoury fillings"
+          },
+          {
+            "name": "Puchika - Chicken",
+            "price": 239,
+            "description": "Crispy puris filled with spicy, tangy water and savoury chicken keema fillings"
+          },
+          {
+            "name": "Puchika - Mutton",
+            "price": 349,
+            "description": "Crispy puris filled with spicy, tangy water and savoury mutton keema fillings"
+          }
+        ]
+      },
+      "asian_mains": {
+        "section": "Asian Mains",
+        "subsections": {
+          "rice": {
+            "label": "Rice",
+            "items": [
+              {
+                "name": "Veg Fried Rice",
+                "price": 249,
+                "description": "A delicious Indo Chinese recipe which is made using vegetables & cooked rice"
+              },
+              {
+                "name": "Egg Fried Rice",
+                "price": 299,
+                "description": "A delicious Indo Chinese recipe which is made using egg & cooked rice"
+              },
+              {
+                "name": "Chicken Fried Rice",
+                "price": 339,
+                "description": "A delicious Indo Chinese recipe which is made using chicken & cooked rice"
+              },
+              {
+                "name": "Hot Garlic Mushroom Fried Rice",
+                "price": 319,
+                "description": "Combined with the mushroom and garlic, spices fried rice has a lovely flavour"
+              },
+              {
+                "name": "Schezwan Fried Rice - Veg",
+                "price": 259,
+                "description": "A vibrant, spicy, tasty and popular Indo-Chinese recipe of stir-fried vegetables and rice with schezwan sauce"
+              },
+              {
+                "name": "Schezwan Fried Rice - Egg",
+                "price": 319,
+                "description": "A vibrant, spicy, tasty and popular Indo-Chinese recipe of stir-fried vegetables, egg and rice with schezwan sauce"
+              },
+              {
+                "name": "Schezwan Fried Rice - Chicken",
+                "price": 349,
+                "description": "A vibrant, spicy, tasty and popular Indo-Chinese recipe of stir-fried chicken and rice with schezwan sauce"
+              },
+              {
+                "name": "Burnt Garlic Fried Rice",
+                "price": 319,
+                "description": "Popular Indian lentil dish made with toor dal, tomatoes, ginger, garlic, herbs, and spices"
+              },
+              {
+                "name": "Nasi Goreng - Veg",
+                "price": 349,
+                "description": "A traditional Indonesian fried rice served with a fried egg"
+              },
+              {
+                "name": "Nasi Goreng - Chicken",
+                "price": 399,
+                "description": "A traditional Indonesian fried rice served with Grilled chicken"
+              },
+              {
+                "name": "Thai Curry Green Veg with Jasmine Rice",
+                "price": 369,
+                "description": "Traditionally made with green curry paste, along with lemongrass, kaffir lime, galangal, and Thai basil and colourful vegetable"
+              },
+              {
+                "name": "Thai Curry Red Chicken with Jasmine Rice",
+                "price": 369,
+                "description": "Traditionally made with red curry paste, along with lemongrass, kaffir lime, galangal, and Thai basil and chicken"
+              },
+              {
+                "name": "Thai Curry Yellow Fish/Prawn with Jasmine Rice",
+                "price": 399,
+                "description": "Traditionally made with yellow curry paste, along with lemongrass, kaffir lime, galangal, and Thai basil and fish/prawn"
+              }
+            ]
+          },
+          "noodles": {
+            "label": "Noodles",
+            "items": [
+              {
+                "name": "Veg Noodles",
+                "price": 249,
+                "description": "Indo-Chinese boiled noodles are stir-fried with colourful vegetables, aromatic spices"
+              },
+              {
+                "name": "Egg Noodles",
+                "price": 299,
+                "description": "Indo-Chinese boiled noodles are stir-fried with egg, colourful vegetables, aromatic spices"
+              },
+              {
+                "name": "Chicken Noodles",
+                "price": 349,
+                "description": "Indo-Chinese boiled noodles are stir-fried with fried chicken, colourful vegetables, aromatic spices"
+              },
+              {
+                "name": "Schezwan Noodles - Veg",
+                "price": 269,
+                "description": "Noodles made with vegetables and home-made schezwan sauce"
+              },
+              {
+                "name": "Schezwan Noodles - Egg",
+                "price": 329,
+                "description": "Noodles made with egg and home-made schezwan sauce"
+              },
+              {
+                "name": "Schezwan Noodles - Chicken",
+                "price": 359,
+                "description": "Noodles made with chicken and home-made schezwan sauce"
+              },
+              {
+                "name": "Chilli Garlc Noodles",
+                "price": 299,
+                "description": "Noodles stir-fry with loaded with vegetables, green chillies with garlic and chilli sauce"
+              },
+              {
+                "name": "Veg Hakka Noodles",
+                "price": 339,
+                "description": "Noodles stir-fry with loaded with vegetables, mushrooms, with spices"
+              },
+              {
+                "name": "Drunken Noodles",
+                "price": 339,
+                "description": "Drunken noodles is stir fried flat noodles with holy basil and lots of veggies with bell peppers"
+              }
+            ]
+          }
+        }
+      },
+      "desserts": {
+        "section": "Desserts",
+        "items": [
+          {
+            "name": "Mango Panna Cotta Delight",
+            "price": 299,
+            "description": "This flavourful twist on a classic dessert is just as creamy - and with alphonso mango chunks on top"
+          },
+          {
+            "name": "Pistachio Cheese Cake",
+            "price": 349,
+            "description": "A smooth and creamy filling on a buttery crust, topped with a rich pistachio sauce and crunchy nuts"
+          },
+          {
+            "name": "German Chocolate Cheesecake",
+            "price": 349,
+            "description": "German chocolate cheesecake combines rich chocolate mousse with creamy cheesecake perfection"
+          },
+          {
+            "name": "Butter Gooey Gooey Choco Cake",
+            "price": 349,
+            "description": "Toasty brown butter gooey cake topped with a chewy silky peanut butter and finished off with a smooth layer of chocolate"
+          },
+          {
+            "name": "Baklava Cheesecake",
+            "price": 379,
+            "description": "A luxurious blend of creamy cheesecake, crunchy baklava layers, and a sweet honey drizzle"
+          },
+          {
+            "name": "Coffee Tiramisu",
+            "price": 349,
+            "description": "This Irish cream tiramisu is made with bailey's liqueur and coffee. It adds a nice little twist to such a classic, fun dessert"
+          }
+        ]
+      },
+      "extras": {
+        "section": "Extras",
+        "items": [
+          {
+            "category": "French Fries",
+            "variants": [
+              {
+                "name": "Plain",
+                "price": 239
+              },
+              {
+                "name": "Spicy",
+                "price": 259
+              },
+              {
+                "name": "Cheesy",
+                "price": 269
+              },
+              {
+                "name": "Truffle",
+                "price": null
+              }
+            ]
+          },
+          {
+            "category": "Vegetables",
+            "variants": [
+              {
+                "name": "Boiled",
+                "price": 190
+              },
+              {
+                "name": "Sauteed",
+                "price": 229
+              }
+            ]
+          },
+          {
+            "category": "Potato Crisps",
+            "variants": [
+              {
+                "name": "Plain",
+                "price": 269
+              },
+              {
+                "name": "Spicy",
+                "price": 289
+              }
+            ]
+          },
+          {
+            "name": "Steamed Rice",
+            "price": 169
+          },
+          {
+            "name": "Bagara Rice",
+            "price": 219
+          },
+          {
+            "name": "Jeera Rice",
+            "price": 219
+          },
+          {
+            "name": "Ghee Rice",
+            "price": 229
+          },
+          {
+            "name": "Herb Rice",
+            "price": 219
+          },
+          {
+            "name": "Jasmine Rice",
+            "price": 219
+          },
+          {
+            "category": "Tandoori Roti",
+            "variants": [
+              {
+                "name": "Plain",
+                "price": 55
+              },
+              {
+                "name": "Butter",
+                "price": 69
+              }
+            ]
+          },
+          {
+            "category": "Naan",
+            "variants": [
+              {
+                "name": "Plain",
+                "price": 55
+              },
+              {
+                "name": "Butter",
+                "price": 69
+              },
+              {
+                "name": "Garlic",
+                "price": 89
+              }
+            ]
+          }
+        ]
+      },
+      "add_ons": {
+        "section": "Add-Ons",
+        "items": [
+          {
+            "name": "Chicken",
+            "price": 149
+          },
+          {
+            "name": "Sea-food",
+            "price": 179
+          },
+          {
+            "name": "Extra Dip",
+            "price": 40
+          },
+          {
+            "name": "Ice Cream Scoop",
+            "price": 90
+          },
+          {
+            "name": "Extra Cheese",
+            "price": 149
+          }
+        ]
+      }
+    }
+  },
+  "drinks": {
+    "restaurant": "Mythus Brewpub & Kitchen",
+    "drinks_menu": {
+      "bottled_beer": {
+        "section": "Bottled Beer",
+        "items": [
+          "Corona",
+          "Hoegarden",
+          "Budweiser",
+          "Kingfisher Ultra",
+          "Bira White",
+          "Bira Blond",
+          "Heineken"
+        ]
+      },
+      "blended_scotch_whisky": {
+        "section": "Blended/Scotch Whisky",
+        "items": [
+          "Ballantines Finest",
+          "Dewars White Label",
+          "Dewars 15yrs",
+          "Teachers Highland Reserve",
+          "Chivas Regal 18yrs Whisky",
+          "Chivas Regal 12yrs Whisky",
+          "JW Black Label",
+          "JW Double Black",
+          "JW Gold Label",
+          "JW Blue Label Whisky",
+          "JW Red Label Whisky",
+          "Royal Salute Whisky",
+          "Hibiki",
+          "Toki"
+        ]
+      },
+      "american_irish_whiskey": {
+        "section": "American & Irish Whiskey",
+        "items": [
+          "Jimbeam White",
+          "Jameson Irish",
+          "Jack Daniels No 7",
+          "Jack Daniels Honey",
+          "Jack Daniels Apple",
+          "Jack Daniels Fire",
+          "Gentleman Jack"
+        ]
+      },
+      "single_malt_whisky": {
+        "section": "Single Malt Whisky",
+        "items": [
+          "Singleton 12yrs",
+          "Talisker 10yrs",
+          "Aberfeldy 12yrs",
+          "The Glenlivet 12yrs",
+          "The Yamazaki",
+          "Glenfiddich 12yrs",
+          "Glenfiddich 15yrs"
+        ]
+      },
+      "vodka": {
+        "section": "Vodka",
+        "items": [
+          "Absolut",
+          "Grey Goose",
+          "Ciroc",
+          "Belvedere",
+          "Beluga Noble",
+          "Roberto Cavalli",
+          "Ketel One"
+        ]
+      },
+      "gin": {
+        "section": "Gin",
+        "items": [
+          "Bombay Sapphire",
+          "Greater Than",
+          "Beefeater",
+          "Tanqueray 10"
+        ]
+      },
+      "rum": {
+        "section": "Rum",
+        "items": [
+          "Old Monk Dark",
+          "Bacardi Carta Blanca",
+          "Bacardi 4 Yrs Anejo",
+          "Ron Diplomatico"
+        ]
+      },
+      "tequila": {
+        "section": "Tequila",
+        "items": [
+          "Jose Cuervo Tequila Silver",
+          "Jose Cuervo Especial Reposado",
+          "Camino Silver",
+          "Camino Gold",
+          "Patron Tequila Silver",
+          "Patron Reposado",
+          "Jose Cuervo Silver",
+          "Jose Cuervo Reposado",
+          "Don Julio Silver",
+          "Don Julio Reposado"
+        ]
+      },
+      "cognac_brandy": {
+        "section": "Cognac & Brandy",
+        "items": [
+          "MH Brandy",
+          "Hennessey VS",
+          "Moepheous XO",
+          "Good Man"
+        ]
+      },
+      "liqueurs_aperitif": {
+        "section": "Liqueurs & Aperitif",
+        "items": [
+          "Martini Rosso",
+          "Martini Dry",
+          "Martini Bianco",
+          "Kahlua",
+          "Baileys",
+          "Jagermeister",
+          "Cointreau",
+          "Sambuca",
+          "Aperol",
+          "Absente 49",
+          "Campari"
+        ]
+      },
+      "sparkling_wine_champagne": {
+        "section": "Sparkling Wine / Champagne",
+        "items": [
+          "Sula Brut",
+          "Villa Sandi Asolo Prosecco"
+        ]
+      },
+      "white_rose_wine": {
+        "section": "White & Rose Wine",
+        "items": [
+          "Sula Chenin Blanc or Fratelli",
+          "Sula Sauvignon Blanc or Fratelli",
+          "Matheus Rose",
+          "Sula Zinfandel Rose or Fratelli",
+          "Jacob's Creek Chardonnay"
+        ]
+      },
+      "red_wine": {
+        "section": "Red Wine",
+        "items": [
+          "Sula Shiraz or Fratelli",
+          "Sula Satori Merlot or Fratelli",
+          "Jacob's Creek Shiraz Cabernet",
+          "Hardys Stamp Merlot"
+        ]
+      },
+      "signature_cocktails": {
+        "section": "Signature Cocktails",
+        "items": [
+          {
+            "name": "Yeti",
+            "description": "Bacardi carta blanca with clarified watermelon mint soda"
+          },
+          {
+            "name": "Hydra",
+            "description": "Tequila with citrus green chili cordial, saline, lime juice & topped with soda"
+          },
+          {
+            "name": "Alp",
+            "description": "Bourbon whisky with spice syrup, tea decoction & oak chipped smoked"
+          },
+          {
+            "name": "Hippocampus",
+            "description": "Vodka with orange juice, saline, carrot juice air & carrot jello"
+          },
+          {
+            "name": "Baku",
+            "description": "Brandy with plum cordial, tea decoction & plum leather"
+          },
+          {
+            "name": "Phoenix",
+            "description": "Brandy with rosemary spiced red wine, fig puree & edible gold dust"
+          },
+          {
+            "name": "Unicorn",
+            "description": "Gin with white chocolate sauce & pink foam"
+          }
+        ]
+      },
+      "giant_iced_teas": {
+        "section": "Giant Iced Teas",
+        "items": [
+          {
+            "name": "Garden of Eden",
+            "description": "Gin with elderflower syrup, cucumber juice, mint syrup & sparkling water"
+          },
+          {
+            "name": "Dragon's Inferno",
+            "description": "Spiced rum with chili cherry cordial, lime juice, cinnamon syrup & lemonade"
+          },
+          {
+            "name": "Titan's Whisper",
+            "description": "Tequila with passion fruit puree, pineapple juice, agave syrup & non alcoholic ginger beer"
+          }
+        ]
+      },
+      "classic_cocktails": {
+        "section": "Classic Cocktails",
+        "items": [
+          {
+            "name": "Bullfrog",
+            "description": "Vodka, gin, tequila, white rum, blue curcao & energy drink"
+          },
+          {
+            "name": "Long Island Iced Tea",
+            "description": "Vodka, gin, tequila, white rum, triple sec & cola"
+          },
+          {
+            "name": "Sangria Red",
+            "description": "Mix of chopped fruits, red wine, brandy & triple sec"
+          },
+          {
+            "name": "Sangria White",
+            "description": "Mix of chopped fruits, white wine, vodka & peach syrup"
+          },
+          {
+            "name": "Daiquiri",
+            "description": "Classic or ask for flavours"
+          },
+          {
+            "name": "Mojito",
+            "description": "Classic or ask for flavours"
+          },
+          {
+            "name": "Martini",
+            "description": "Classic or ask for flavours"
+          },
+          {
+            "name": "Cosmopolitan",
+            "description": "Vodka with cranberry juice, triple sec & fresh lime"
+          },
+          {
+            "name": "Pina Colada",
+            "description": "White rum, coconut, pineapple & fresh cream"
+          },
+          {
+            "name": "Margarita",
+            "description": "Shaken or frozen with triple sec & fresh lime juice tequila"
+          },
+          {
+            "name": "Moscow Mule",
+            "description": "Vodka with fresh ginger, beer, mint & lime"
+          },
+          {
+            "name": "Old Fashioned",
+            "description": "Bourbon whiskey with sugar syrup, orange peel & angostura bitters"
+          },
+          {
+            "name": "Mimosa",
+            "description": "Fresh orange juice with sparkling wine"
+          },
+          {
+            "name": "Whiskey Sour",
+            "description": "Whisky with lime juice, sugar syrup, angostura bitters & egg white optional"
+          },
+          {
+            "name": "Bloody Mary",
+            "description": "Vodka, tobasco, tomato juice, worcestershire sauce, celery, salt & pepper"
+          },
+          {
+            "name": "Hot Toddy",
+            "description": "Brandy with indian spices, orange peel, honey & hot water"
+          }
+        ]
+      },
+      "shots": {
+        "section": "Shots",
+        "items": [
+          {
+            "name": "Phoenix Fire",
+            "description": "Cinnamon whisky with chilli cranberry reduction & orange peel fire"
+          },
+          {
+            "name": "Ambrosia's Kiss",
+            "description": "Vodka with vanilla white chocolate & gold dust"
+          },
+          {
+            "name": "Kraken's Wrath",
+            "description": "Spiced rum with blue curcao, lime juice & activated charcoal"
+          },
+          {
+            "name": "Elixir of Medusa",
+            "description": "Absinthe with red apple cordial & black salt"
+          },
+          {
+            "name": "Serpent's Venom",
+            "description": "Tequila with pineapple matcha syrup & chili salt"
+          },
+          {
+            "name": "Valkyrie's Breath",
+            "description": "Vodka with botanicals elderflower syrup & lime juice"
+          },
+          {
+            "name": "Tequila Single Shot",
+            "description": "Single shot of tequila"
+          },
+          {
+            "name": "Tequila Platter of Six Shots",
+            "description": "Platter of six tequila shots"
+          },
+          {
+            "name": "Kamikaze",
+            "description": "Classic or ask for flavours"
+          },
+          {
+            "name": "B-52",
+            "description": "Kahlua, Bailey's & Cointreau"
+          },
+          {
+            "name": "Blow Job",
+            "description": "Kahlua, Bailey's & Cointreau"
+          }
+        ]
+      },
+      "mocktails": {
+        "section": "Mocktails",
+        "items": [
+          {
+            "name": "Kalpak Green"
+          },
+          {
+            "name": "Moly"
+          },
+          {
+            "name": "Ambrosia"
+          },
+          {
+            "name": "World's Spine"
+          },
+          {
+            "name": "Eleven Forest"
+          },
+          {
+            "name": "Mermaid's Dream"
+          },
+          {
+            "name": "Dragon's Delight"
+          },
+          {
+            "name": "Iced Tea Lemon",
+            "description": "Tea decoction, lime juice & lemon"
+          },
+          {
+            "name": "Iced to Peach",
+            "description": "Tea decoction, lime juice & peach"
+          },
+          {
+            "name": "Iced to Passion Fruit",
+            "description": "Tea decoction, lime juice & passion fruit"
+          },
+          {
+            "name": "Oreo Shake",
+            "description": "Oreo, milk, chocolate & all in one beverage mix"
+          },
+          {
+            "name": "Cold Coffee",
+            "description": "Coffee, milk & vanilla all in one beverage mix"
+          },
+          {
+            "name": "Brownie Shake",
+            "description": "Brownie, milk, chocolate & all in one beverage mix"
+          },
+          {
+            "name": "Fresh Lime Water"
+          },
+          {
+            "name": "Fresh Lime Soda"
+          },
+          {
+            "name": "Fresh Lime Orange"
+          },
+          {
+            "name": "Fresh Lime Watermelon"
+          }
+        ]
+      },
+      "soft_beverages": {
+        "section": "Soft Beverages",
+        "items": [
+          "Veen Water",
+          "Perrier Sparkling Water 330ml",
+          "Aerated Beverages",
+          "Canned Juice",
+          "Soda",
+          "Diet Coke",
+          "Ginger Ale",
+          "Tonic Water",
+          "Red Bull"
+        ]
+      }
+    }
+  }
+};
